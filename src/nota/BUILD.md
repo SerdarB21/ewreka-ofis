@@ -13,8 +13,10 @@ Ewreka Ofis'in Word (.docx) modülü. Motor: **SuperDoc 1.47.1** (npm `superdoc`
 - Python 3 + `python-docx` (yalnızca şablon/sınama belgesi üretmek için)
 
 ## Derleme
+
+`/path/to/project` örnek depo yoludur; kendi depo klasörünüzün tam yoluyla değiştirin.
 ```bash
-cd /home/claude/src/nota
+cd /path/to/project/src/nota
 npm ci                 # ya da npm install
 npm run build          # → ../../ewreka-ofis/modules/nota/  (base './', kaynak haritası yok)
 ```
@@ -45,8 +47,8 @@ oluşturma tarihi çalışma anında yenilenir (`src/docx-meta.js`).
 
 ## Sınama
 ```bash
-cd /home/claude/ewreka-ofis && python3 -m http.server 8702 &
-cd /home/claude/src/nota
+cd /path/to/project/ewreka-ofis && python3 -m http.server 8702 &
+cd /path/to/project/src/nota
 python3 tests/make_test_docs.py          # test-files/ornek.docx, uzun.docx
 node tests/e2e.mjs /tmp/nota-e2e         # 24 denetim: aç, yaz, kaydet, yeniden aç, HTML/TXT, PDF, bul, zoom, boş belge, bozuk dosya, uzak istek yok
 node tests/desktop-sim.mjs /tmp/nota-desk # sahte window.ewreka köprüsü: başlatma dosyası, yerinde kaydet, PDF dışa aktar, menüden geri al/yinele

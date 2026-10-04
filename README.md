@@ -114,8 +114,8 @@ Uygulama hiçbir sunucuya veri göndermez; telemetri/analitik yoktur ve tüm bil
 kurulum doğrulaması belgelenmemiştir. Bu yayına hazırlık sırasında uygulama yeniden
 derlenmemiştir; özgün 1.0.0 uygulama dosyaları ek lisans bildirimleriyle sunulur.
 Bash gerektiren Carta derlemesini Windows'ta Git Bash veya WSL ile çalıştırın.
-Modül BUILD.md dosyalarındaki `/home/claude` ve `/opt` yolları önceki derleme ortamına
-aittir; kendi çalışma dizininize ve araç kurulumlarınıza göre uyarlayın.
+Modül BUILD.md dosyalarındaki `/path/to/project` ve `/opt` örnek yollarını
+kendi çalışma dizininize ve araç kurulumlarınıza göre uyarlayın.
 
 ## Web sitesindeki indirme sayfası
 

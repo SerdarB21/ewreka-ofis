@@ -9,8 +9,10 @@ projesinin değiştirilmiş bir çatalıdır — bkz. `NOTICE` ve `LICENSE`.
 
 ## Derleme
 
+`/path/to/project` örnek depo yoludur; kendi depo klasörünüzün tam yoluyla değiştirin.
+
 ```bash
-cd /home/claude/src/vista
+cd /path/to/project/src/vista
 npm install --ignore-scripts      # ilk kez
 npm run build                     # vue-tsc tür denetimi + vite build
 # ya da yalnızca paketleme (daha hızlı):
@@ -30,7 +32,7 @@ kabuk çubuğu görünmez; editör boş bir sunuyla açılır. Kabukla birlikte 
 
 ```bash
 npm run build-only
-cd /home/claude/ewreka-ofis && python3 -m http.server 8703
+cd /path/to/project/ewreka-ofis && python3 -m http.server 8703
 # http://localhost:8703/modules/vista/index.html?file=/test-files/vista-ornek.pptx
 ```
 

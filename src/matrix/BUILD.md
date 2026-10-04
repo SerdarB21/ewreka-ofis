@@ -5,13 +5,15 @@ yalnızca `@univerjs/*` paketleri — `@univerjs-pro/*` KULLANILMAZ). Dosya köp
 
 ## Derleme
 
+`/path/to/project` örnek depo yoludur; kendi depo klasörünüzün tam yoluyla değiştirin.
+
 ```bash
-cd /home/claude/src/matrix
+cd /path/to/project/src/matrix
 npm ci            # ya da npm install (sürümler package.json'da sabit: Univer 1.0.3, ExcelJS 4.4.0)
 npm run build     # = node scripts/build-locale.mjs && vite build
 ```
 
-Çıktı: `/home/claude/ewreka-ofis/modules/matrix/` (`base: './'`, kaynak haritası yok, ~8.2 MB).
+Çıktı: `/path/to/project/ewreka-ofis/modules/matrix/` (`base: './'`, kaynak haritası yok, ~8.2 MB).
 `index.html` önce `../../shared/ewreka-shell.js` dosyasını klasik betik olarak yükler, ardından modülü.
 
 | Parça | Boyut | Not |
@@ -95,12 +97,12 @@ Sayı gösterimi: Univer'in "tr" sayı biçimlendirmesi yarım olduğundan (gene
 ## Test
 
 ```bash
-cd /home/claude/ewreka-ofis && python3 -m http.server 8701 &      # modül + test-files
-cd /home/claude/src/matrix
+cd /path/to/project/ewreka-ofis && python3 -m http.server 8701 &      # modül + test-files
+cd /path/to/project/src/matrix
 python3 tests/make_test_xlsx.py && python3 tests/make_excel_like.py   # test-files/ornek.xlsx, excel-benzeri.xlsx
 export PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers
 node tests/smoke.cjs /test-files/ornek.xlsx ornek          # ekran görüntüsü + dış ağ isteği denetimi
-node tests/roundtrip.cjs /test-files/ornek.xlsx /tmp/rt.xlsx && python3 tests/verify_roundtrip.py /home/claude/ewreka-ofis/test-files/ornek.xlsx /tmp/rt.xlsx
+node tests/roundtrip.cjs /test-files/ornek.xlsx /tmp/rt.xlsx && python3 tests/verify_roundtrip.py /path/to/project/ewreka-ofis/test-files/ornek.xlsx /tmp/rt.xlsx
 node tests/roundtrip.cjs /test-files/ornek.xlsx /tmp/o.csv csv            # ya da csv-semicolon
 node tests/edit.cjs        # klavye girişi, doldurma tutamacı, geri al, kirli bayrağı, Ctrl+S
 node tests/input-tr.cjs    # Türkçe sayı/tarih girişi
