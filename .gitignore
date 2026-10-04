@@ -1,0 +1,17 @@
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/coverage/
+**/__pycache__/
+*.pyc
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+src/carta/pdfjs-legacy/
+src/carta/pdfjs-legacy.zip

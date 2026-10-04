@@ -1,0 +1,22 @@
+// PDF yazdırma görünümü testi: "Farklı kaydet → PDF" sırasında print medyasıyla page.pdf() alınır
+import { createRequire } from 'module'
+const require = createRequire('/opt/npm-tools/node_modules/')
+const { chromium } = require('playwright')
+const OUT = process.argv[2]
+const browser = await chromium.launch()
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 } })
+page.on('pageerror', e => console.log('[pageerror]', e.message))
+await page.goto('http://localhost:8703/modules/vista/index.html?file=/test-files/vista-ornek.pptx')
+await page.waitForFunction(() => window.__ewrekaVista && window.__ewrekaVista.slidesStore.slides.length >= 4)
+await page.waitForTimeout(1200)
+await page.evaluate(() => { window.__ewrekaVista.printHook = () => new Promise(r => { window.__releasePrint = r }) })
+await page.click('.ew-bar [data-c="saveAs"]')
+await page.waitForTimeout(300)
+await page.click('.ew-menu button:has-text("PDF")')
+await page.waitForFunction(() => document.body.classList.contains('ew-printing'), null, { timeout: 5000 })
+await page.pdf({ path: `${OUT}/vista-yazdir.pdf`, preferCSSPageSize: true, printBackground: true })
+console.log('pdf ok')
+await page.evaluate(() => window.__releasePrint())
+await page.waitForTimeout(2000)
+console.log('printing class after:', await page.evaluate(() => document.body.classList.contains('ew-printing')))
+await browser.close()

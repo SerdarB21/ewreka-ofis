@@ -1,0 +1,5 @@
+Name,City,Date,Amount,Code
+Çağrı,Muğla,2026-03-12,1234.5,00123
+"Ayşe, Öz",Bursa,2026-03-13,-12.75,00456
+"Multi
+line",İzmir,,"1,500.25",TRUE

@@ -1,0 +1,22 @@
+// Ewreka Vista: web fontu yüklenmez. Calibri / Cambria bulunmayan sistemlerde (ör. Office'siz macOS, Linux)
+// ölçü uyumlu yerel yedeklere yönlendiren takma adlar. Sistemde asıl yazı tipi varsa local() ile o kullanılır.
+@mixin ew-alias($family, $regular, $bold, $italic, $boldItalic) {
+  @font-face { font-family: $family; font-weight: 400; font-style: normal; src: $regular; }
+  @font-face { font-family: $family; font-weight: 700; font-style: normal; src: $bold; }
+  @font-face { font-family: $family; font-weight: 400; font-style: italic; src: $italic; }
+  @font-face { font-family: $family; font-weight: 700; font-style: italic; src: $boldItalic; }
+}
+
+@include ew-alias('Calibri',
+  (local('Calibri'), local('Carlito'), local('Liberation Sans'), local('Helvetica Neue'), local('Arial')),
+  (local('Calibri Bold'), local('Calibri-Bold'), local('Carlito Bold'), local('Liberation Sans Bold'), local('Helvetica Neue Bold'), local('Arial Bold')),
+  (local('Calibri Italic'), local('Calibri-Italic'), local('Carlito Italic'), local('Liberation Sans Italic'), local('Helvetica Neue Italic'), local('Arial Italic')),
+  (local('Calibri Bold Italic'), local('Calibri-BoldItalic'), local('Carlito Bold Italic'), local('Liberation Sans Bold Italic'), local('Helvetica Neue Bold Italic'), local('Arial Bold Italic'))
+);
+
+@include ew-alias('Cambria',
+  (local('Cambria'), local('Caladea'), local('Liberation Serif'), local('Georgia'), local('Times New Roman')),
+  (local('Cambria Bold'), local('Cambria-Bold'), local('Caladea Bold'), local('Liberation Serif Bold'), local('Georgia Bold'), local('Times New Roman Bold')),
+  (local('Cambria Italic'), local('Cambria-Italic'), local('Caladea Italic'), local('Liberation Serif Italic'), local('Georgia Italic'), local('Times New Roman Italic')),
+  (local('Cambria Bold Italic'), local('Cambria-BoldItalic'), local('Caladea Bold Italic'), local('Liberation Serif Bold Italic'), local('Georgia Bold Italic'), local('Times New Roman Bold Italic'))
+);

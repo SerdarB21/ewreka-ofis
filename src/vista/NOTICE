@@ -1,0 +1,28 @@
+Ewreka Vista
+Copyright (C) 2026 Ewreka Digital — https://www.ewreka.net
+
+Bu yazılım, PPTist projesinin DEĞİŞTİRİLMİŞ bir çatalıdır (modified fork).
+This software is a MODIFIED FORK of PPTist.
+
+  PPTist — https://github.com/pipipi-pikachu/PPTist
+  Copyright (c) 2020-present pipipi-pikachu
+  Lisans / License: GNU Affero General Public License v3.0 (bkz. LICENSE)
+
+Ewreka Digital tarafından yapılan başlıca değişiklikler (2026):
+  - Tüm kullanıcı arayüzü Türkçeye çevrildi; şablon örnek metinleri Türkçeleştirildi.
+  - Uzak sunuculara bağlanan özellikler kaldırıldı (AIPPT / AI yazım yardımı, çevrimiçi görsel
+    kütüphanesi, Google Fonts yükleme, GitHub/geri bildirim bağlantıları). Şablonlardaki uzak
+    görseller, yerel olarak üretilmiş soyut görsellerle değiştirildi.
+  - Paketlenmiş Çince web fontları kaldırıldı; Windows/macOS sistem yazı tipleri kullanılıyor.
+  - Ewreka Ofis kabuğu (EwrekaShell) ile bütünleşme: Yeni/Aç/Kaydet/Dışa aktar/Yazdır,
+    PPTX'i bayt olarak üreten dışa aktarma, PDF ve PNG dışa aktarma, yer tutuculu boş sunu.
+  - PPTX içe aktarmada miras alınan madde işaretleri ve paragraf aralığı düzeltmeleri.
+  - Mobil görünüm kaldırıldı; tema rengi ve marka öğeleri değiştirildi.
+
+Bu değiştirilmiş sürüm de AGPL-3.0 koşullarıyla dağıtılır. Kaynak kodu:
+https://www.ewreka.net/ofis
+
+Üçüncü taraf bileşenler: Vue (MIT), Pinia (MIT), pptxgenjs (MIT), pptxtojson (MIT),
+ECharts (Apache-2.0), ProseMirror (MIT), Dexie (Apache-2.0), html-to-image (MIT), JSZip (MIT/GPLv3),
+tippy.js (MIT), lodash (MIT), animate.css (MIT), hfmath (ISC), icon-park ikonları (Apache-2.0)
+ve diğerleri — ayrıntılar için package.json ve node_modules içindeki lisans dosyalarına bakın.

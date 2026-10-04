@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26262B"/><stop offset="1" stop-color="#0E0E10"/></linearGradient></defs>
+<rect x="64" y="64" width="896" height="896" rx="200" fill="url(#bg)"/>
+<rect x="64" y="64" width="896" height="896" rx="200" fill="none" stroke="#FF5468" stroke-opacity=".35" stroke-width="6"/>
+
+<path d="M300 220h300l140 140v440a40 40 0 0 1-40 40H300a40 40 0 0 1-40-40V260a40 40 0 0 1 40-40z" fill="#FF5468"/>
+<path d="M600 220v120a20 20 0 0 0 20 20h120z" fill="#FFB3BC"/>
+<text x="500" y="560" text-anchor="middle" font-family="DejaVu Sans, Arial" font-weight="700" font-size="170" fill="#fff">PDF</text>
+<path d="M330 700 q40 -70 80 -10 t80 0 t80 -20 t80 10" stroke="#FFC300" stroke-width="30" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

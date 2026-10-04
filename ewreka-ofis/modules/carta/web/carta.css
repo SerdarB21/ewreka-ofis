@@ -1,0 +1,73 @@
+/* Ewreka Carta — PDF.js görünüm uyarlaması */
+html, body { height: 100%; }
+body { display: flex; flex-direction: column; margin: 0; overflow: hidden; }
+#outerContainer { flex: 1 1 auto; min-height: 0; height: auto !important; position: relative; }
+
+:root {
+  --carta: #FF5468;
+  --ew-yellow: #FFC300;
+  /* PDF.js tema değişkenleri */
+  --toolbar-bg-color: #F6F6F8;
+  --toolbar-border-color: #E4E4E8;
+  --body-bg-color: #E9E9ED;
+  --main-color: #1d1d21;
+  --button-hover-color: #E6E6EA;
+  --toggled-btn-bg-color: #FFE7A3;
+  --toggled-btn-color: #111;
+  --toggled-hover-active-btn-color: #FFC300;
+  --sidebar-toolbar-bg-color: #F3F3F6;
+  --field-border-color: #CFCFD6;
+  --dropdown-btn-bg-color: #fff;
+  --doorhanger-hover-bg-color: #FFF2CC;
+  --doorhanger-hover-color: #111;
+  --focus-ring-color: #FFC300;
+  --progressBar-color: #FF5468;
+}
+#loadingBar { --progressBar-color: #FF5468; }
+
+/* Kabuk zaten sağlıyor: aç / yazdır / indir düğmelerini gizle */
+#printButton, #downloadButton, #secondaryOpenFile, #secondaryPrint, #secondaryDownload, #viewBookmark, #viewBookmarkSeparator,
+#toolbarViewerRight .toolbarHorizontalGroup.hiddenMediumView,
+#editorModeSeparator + .toolbarHorizontalGroup.hiddenMediumView { display: none !important; }
+#viewsManagerAddFileButton { }
+
+/* Boş belge iken araç çubuğunu sadeleştir */
+body.carta-empty #toolbarContainer { opacity: .55; pointer-events: none; }
+body.carta-empty #viewerContainer { visibility: hidden; }
+
+/* Hoş geldin ekranı */
+.carta-welcome { position: absolute; inset: 0; top: var(--toolbar-height, 32px); z-index: 50; overflow: auto; display: flex; align-items: flex-start; justify-content: center;
+  background: radial-gradient(1200px 500px at 50% -10%, #fff 0%, #F1F1F4 60%, #E9E9ED 100%);
+  font-family: "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; color: #18181b; }
+.carta-welcome[hidden] { display: none; }
+.cw-inner { width: min(860px, 92%); padding: 56px 0 40px; }
+.cw-hero { display: flex; align-items: center; gap: 18px; margin-bottom: 28px; }
+.cw-hero img { width: 64px; height: 64px; }
+.cw-hero h1 { margin: 0 0 4px; font-size: 26px; font-weight: 700; letter-spacing: -.01em; }
+.cw-hero p { margin: 0; color: #5b5b66; font-size: 15px; }
+.carta-welcome button { font: inherit; color: inherit; cursor: pointer; text-align: left; }
+.carta-welcome svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.cw-drop { width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center !important;
+  padding: 44px 20px; border: 2px dashed #D3D3DA; border-radius: 16px; background: #fff; transition: border-color .15s, box-shadow .15s, transform .15s; }
+.cw-drop svg { width: 42px; height: 42px; color: var(--carta); }
+.cw-drop strong { font-size: 18px; }
+.cw-drop span { color: #6b6b75; font-size: 13.5px; }
+.cw-drop:hover { border-color: var(--ew-yellow); box-shadow: 0 8px 30px rgba(0,0,0,.06); }
+.cw-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 16px; }
+.cw-grid button { display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid #E2E2E7; border-radius: 14px; background: #fff; transition: border-color .15s, box-shadow .15s; }
+.cw-grid button svg { color: #18181b; margin-bottom: 4px; }
+.cw-grid button strong { font-size: 15px; }
+.cw-grid button span { color: #6b6b75; font-size: 13px; line-height: 1.4; }
+.cw-grid button:hover { border-color: var(--ew-yellow); box-shadow: 0 6px 22px rgba(0,0,0,.06); }
+.cw-grid button:hover svg { color: var(--carta); }
+@media (max-width: 760px) { .cw-grid { grid-template-columns: 1fr; } }
+
+/* Form penceresi */
+.carta-form .ew-body { display: flex; flex-direction: column; gap: 12px; padding-bottom: 18px; }
+.carta-field { display: flex; flex-direction: column; gap: 6px; }
+.carta-field span { color: #c9c9cf; font-size: 12.5px; }
+.carta-field input, .carta-field select { height: 36px; border-radius: 8px; border: 1px solid #3a3a41; background: #111113; color: #fff; padding: 0 10px; font: inherit; }
+.carta-field input:focus, .carta-field select:focus { outline: 2px solid #FFC300; outline-offset: 0; }
+.carta-form footer { gap: 8px; }
+
+@media print { .ew-bar, .carta-welcome, .ew-toasts { display: none !important; } }

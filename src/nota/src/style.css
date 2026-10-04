@@ -1,0 +1,150 @@
+/* Ewreka Nota — düzen ve tema */
+:root {
+  --nota-accent: #4C8DFF;
+  --nota-accent-2: #3A78E8;
+  --nota-accent-soft: #E3EDFF;
+  --nota-yellow: #FFC300;
+  --nota-canvas: #E9EBEF;
+  --nota-line: #DCDFE5;
+  --nota-text: #26272B;
+  --nota-muted: #6B6E76;
+  --nota-ui-font: "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Inter, Arial, sans-serif;
+
+  /* SuperDoc tema değişkenleri → Ewreka */
+  --sd-font-family: var(--nota-ui-font);
+  --sd-ui-font-family: var(--nota-ui-font);
+  --sd-ui-text: var(--nota-text);
+  --sd-ui-text-muted: var(--nota-muted);
+  --sd-ui-action: var(--nota-accent);
+  --sd-ui-action-hover: var(--nota-accent-2);
+  --sd-action-primary: var(--nota-accent);
+  --sd-action-primary-hover: var(--nota-accent-2);
+  --sd-color-blue-500: #4C8DFF;
+  --sd-color-blue-600: #3A78E8;
+  --sd-color-blue-100: #E3EDFF;
+  --sd-color-blue-50: #F0F5FF;
+  --sd-ui-hover-bg: #ECEEF2;
+  --sd-ui-active-bg: var(--nota-accent-soft);
+  --sd-ui-border: var(--nota-line);
+  --sd-ui-radius: 6px;
+  --sd-ui-toolbar-bg: #FFFFFF;
+  --sd-ui-toolbar-button-hover-bg: #EEF0F4;
+  --sd-ui-toolbar-button-active-bg: var(--nota-accent-soft);
+  --sd-ui-toolbar-height: 32px;
+  --sd-ui-toolbar-padding-x: 10px;
+  --sd-ui-toolbar-padding-y: 5px;
+  --sd-ui-dropdown-hover-bg: #EEF2FA;
+  --sd-ui-dropdown-active-bg: var(--nota-accent-soft);
+  --sd-ui-dropdown-shadow: 0 10px 28px rgba(17, 17, 19, .16);
+  --sd-ui-dropdown-border: var(--nota-line);
+  --sd-ui-menu-item-hover-bg: #EEF2FA;
+  --sd-ui-menu-item-active-bg: var(--nota-accent-soft);
+  --sd-ui-tooltip-bg: #18181B;
+  --sd-ui-tooltip-text: #fff;
+  --sd-ui-search-match-bg: rgba(255, 195, 0, .35);
+  --sd-ui-search-match-active-bg: rgba(255, 195, 0, .75);
+  --sd-ui-find-replace-toggle-active-bg: var(--nota-accent-soft);
+  --sd-ui-find-replace-toggle-active-color: var(--nota-accent-2);
+  --sd-ui-password-prompt-submit-bg: var(--nota-accent);
+  --sd-ui-password-prompt-submit-border: var(--nota-accent);
+  --sd-ui-password-prompt-submit-hover-bg: var(--nota-accent-2);
+  --sd-ui-password-prompt-input-focus-border: var(--nota-accent);
+  --sd-ui-ruler-bg: #F7F8FA;
+  --sd-layout-page-bg: #fff;
+  --sd-layout-page-shadow: 0 1px 3px rgba(17, 17, 19, .10), 0 6px 22px rgba(17, 17, 19, .08);
+}
+
+html, body { height: 100%; margin: 0; }
+body {
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--nota-canvas);
+  font-family: var(--nota-ui-font);
+  color: var(--nota-text);
+}
+body > .ew-bar { flex: 0 0 auto; }
+
+#nota-app { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+
+/* ---------- Araç çubuğu ---------- */
+.nota-toolbar {
+  flex: 0 0 auto; position: relative; z-index: 20;
+  background: #fff;
+  border-bottom: 1px solid var(--nota-line);
+  box-shadow: 0 1px 0 rgba(17, 17, 19, .03), 0 2px 8px rgba(17, 17, 19, .04);
+  min-height: 44px;
+}
+.nota-toolbar .superdoc-toolbar { padding-top: 5px; padding-bottom: 5px; background: #fff; }
+.nota-toolbar .sd-toolbar-button { border-radius: 6px; color: var(--nota-text); }
+.nota-toolbar .sd-toolbar-button.active,
+.nota-toolbar .sd-toolbar-button.sd-active,
+.nota-toolbar .sd-toolbar-item.active .sd-toolbar-button {
+  background: var(--nota-accent-soft) !important;
+  color: var(--nota-accent-2) !important;
+  box-shadow: inset 0 -2px 0 var(--nota-accent);
+}
+.nota-toolbar .sd-toolbar-item:focus-visible,
+.nota-toolbar .sd-toolbar-button:focus-visible,
+.nota-toolbar [tabindex]:focus-visible { outline: 2px solid var(--nota-yellow); outline-offset: 1px; border-radius: 6px; }
+.nota-toolbar .sd-toolbar-separator, .nota-toolbar .toolbar-separator { opacity: .7; }
+/* Belge modu düğmesi: yazı yerine kompakt */
+.nota-toolbar [data-item="btn-documentMode"] { font-size: 12.5px; }
+
+/* Açılır menüler: seçili öğe Nota mavisi */
+.sd-toolbar-dropdown-option.selected, .toolbar-dropdown-option.selected,
+.n-dropdown-option-body--active { color: var(--nota-accent-2) !important; }
+
+/* ---------- Tuval ---------- */
+.nota-canvas {
+  flex: 1 1 auto; min-height: 0; position: relative;
+  overflow: auto;
+  background: var(--nota-canvas);
+  scroll-behavior: auto;
+}
+#nota-editor { min-height: 100%; box-sizing: border-box; padding: 26px 24px 40px; }
+#nota-editor .superdoc { margin: 0 auto; background: transparent; }
+#nota-editor .superdoc__layers { margin: 0 auto; }
+#nota-editor .super-editor-container { margin: 0 auto; background: transparent; }
+#nota-editor .superdoc-page { border-color: rgba(17, 17, 19, .06) !important; }
+#nota-editor .presentation-editor__mode-banner { font-family: var(--nota-ui-font); }
+
+/* Seçim rengi (ProseMirror dışı katmanlar) */
+#nota-editor ::selection { background: rgba(76, 141, 255, .28); }
+
+/* ---------- Durum çubuğu ---------- */
+.nota-status {
+  flex: 0 0 26px; height: 26px; display: flex; align-items: center; justify-content: space-between;
+  padding: 0 10px; gap: 12px;
+  background: #F7F8FA; border-top: 1px solid var(--nota-line);
+  font: 12px/1 var(--nota-ui-font); color: var(--nota-muted);
+  user-select: none; -webkit-user-select: none;
+}
+.nota-status .ns-left, .nota-status .ns-right { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.nota-status .ns-item { white-space: nowrap; color: #44464C; }
+.nota-status .ns-dim { color: var(--nota-muted); }
+.nota-status .ns-sep { width: 1px; height: 14px; background: var(--nota-line); }
+.nota-status .ns-btn {
+  appearance: none; border: 0; background: transparent; color: #44464C; font: inherit;
+  height: 20px; padding: 0 6px; border-radius: 4px; cursor: pointer;
+}
+.nota-status .ns-btn:hover { background: #E9ECF1; }
+.nota-status .ns-btn:focus-visible { outline: 2px solid var(--nota-yellow); outline-offset: 0; }
+.nota-status .ns-ico { width: 20px; padding: 0; font-size: 15px; line-height: 20px; }
+.nota-status .ns-zoom { min-width: 44px; text-align: right; font-variant-numeric: tabular-nums; }
+.nota-status .ns-range { width: 120px; height: 14px; accent-color: var(--nota-accent); cursor: pointer; }
+@media (max-width: 720px) { .nota-status .ns-range, .nota-status [data-k="lang"], .nota-status [data-k="lang"] + .ns-sep { display: none; } }
+
+/* Yükleme sırasında boş alanın titrememesi için */
+body:not(.nota-ready) #nota-editor { opacity: .0; }
+body.nota-ready #nota-editor { opacity: 1; transition: opacity .12s ease-out; }
+
+/* ---------- Yazdırma ---------- */
+#nota-print { display: none; }
+@media print {
+  html, body { height: auto !important; overflow: visible !important; background: #fff !important; display: block !important; }
+  body > *:not(#nota-print) { display: none !important; }
+  #nota-print { display: block !important; }
+  #nota-print .nota-print-page { position: relative; overflow: hidden; break-after: page; page-break-after: always; break-inside: avoid; }
+  #nota-print .nota-print-page:last-child { break-after: auto; page-break-after: auto; }
+  #nota-print .superdoc-page { box-shadow: none !important; border: 0 !important; margin: 0 !important; }
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+}

@@ -1,0 +1,8 @@
+Ewreka Nota — üçüncü taraf bileşenler / third-party components
+
+SuperDoc 1.47.1 (npm "superdoc") — GNU AGPL-3.0 — https://github.com/superdoc/docx-editor
+  Includes Vue, Pinia, ProseMirror, Konva, eventemitter3, uuid (MIT) as bundled by SuperDoc.
+JSZip 3.10 — MIT (dual MIT / GPL-3.0) — https://github.com/Stuk/jszip
+
+Not: SuperDoc 2.x, özel lisanslı (dağıtımı yasak) "@superdoc/docx-engine" paketine bağımlı olduğu için
+KULLANILMAMIŞTIR; tamamen AGPL-3.0 olan 1.x serisi kullanılmıştır.

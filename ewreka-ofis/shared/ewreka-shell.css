@@ -1,0 +1,98 @@
+/* Ewreka Ofis — ortak kabuk stilleri */
+:root {
+  --ew-yellow: #FFC300;
+  --ew-yellow-2: #FFD84D;
+  --ew-ink: #111113;
+  --ew-bar: #18181B;
+  --ew-bar-2: #222226;
+  --ew-bar-line: #2E2E33;
+  --ew-text: #ECECEF;
+  --ew-text-dim: #A1A1AA;
+  --ew-accent: var(--ew-yellow);
+  --ew-radius: 8px;
+  --ew-font: "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  --ew-bar-h: 48px;
+}
+.ew-bar {
+  position: relative; z-index: 2000;
+  height: var(--ew-bar-h); flex: 0 0 var(--ew-bar-h);
+  display: flex; align-items: center; gap: 4px;
+  padding: 0 10px 0 12px;
+  background: var(--ew-bar); color: var(--ew-text);
+  font: 13px/1 var(--ew-font);
+  border-bottom: 1px solid var(--ew-bar-line);
+  box-shadow: inset 0 -2px 0 var(--ew-accent);
+  user-select: none; -webkit-user-select: none;
+  box-sizing: border-box;
+}
+.ew-bar * { box-sizing: border-box; }
+.ew-brand { display: flex; align-items: center; gap: 10px; margin-right: 10px; min-width: 0; }
+.ew-brand img { width: 28px; height: 28px; display: block; }
+.ew-brand .ew-titles { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.ew-brand .ew-app { font-size: 10.5px; letter-spacing: .08em; color: var(--ew-accent); font-weight: 700; }
+.ew-brand .ew-doc { font-size: 13px; font-weight: 600; color: var(--ew-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 260px; }
+.ew-brand .ew-doc .ew-dot { color: var(--ew-yellow); margin-left: 4px; }
+.ew-sep { width: 1px; height: 24px; background: var(--ew-bar-line); margin: 0 6px; flex: 0 0 1px; }
+.ew-btn {
+  appearance: none; border: 0; background: transparent; color: var(--ew-text);
+  height: 34px; padding: 0 10px; border-radius: 7px;
+  display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
+  font: inherit; white-space: nowrap; position: relative;
+}
+.ew-btn:hover { background: var(--ew-bar-2); }
+.ew-btn:active { background: #2a2a30; }
+.ew-btn:focus-visible { outline: 2px solid var(--ew-yellow); outline-offset: 1px; }
+.ew-btn svg { width: 17px; height: 17px; flex: 0 0 17px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.ew-btn.ew-primary { background: var(--ew-yellow); color: #111; font-weight: 600; }
+.ew-btn.ew-primary:hover { background: var(--ew-yellow-2); }
+.ew-btn[disabled] { opacity: .45; cursor: default; }
+.ew-spacer { flex: 1 1 auto; }
+.ew-logo { height: 22px; opacity: .95; margin: 0 6px 0 4px; cursor: pointer; }
+.ew-actions { display: flex; align-items: center; gap: 2px; min-width: 0; overflow: hidden; }
+@media (max-width: 1180px) { .ew-btn .ew-lbl.ew-opt { display: none; } }
+@media (max-width: 980px) { .ew-btn .ew-lbl { display: none; } .ew-logo { display: none; } }
+
+/* Açılır menü */
+.ew-menu {
+  position: fixed; z-index: 3000; min-width: 220px; padding: 6px;
+  background: #1f1f23; color: var(--ew-text); border: 1px solid #34343a; border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.35); font: 13px/1.2 var(--ew-font);
+}
+.ew-menu button { display: flex; width: 100%; gap: 10px; align-items: center; padding: 9px 10px; border: 0; border-radius: 6px; background: transparent; color: inherit; font: inherit; cursor: pointer; text-align: left; }
+.ew-menu button:hover { background: #2c2c32; }
+.ew-menu .ew-ext { margin-left: auto; color: var(--ew-text-dim); font-size: 11px; }
+.ew-menu hr { border: 0; border-top: 1px solid #333; margin: 5px 2px; }
+
+/* Bildirim */
+.ew-toasts { position: fixed; right: 18px; bottom: 18px; z-index: 4000; display: flex; flex-direction: column; gap: 8px; pointer-events: none; }
+.ew-toast { pointer-events: auto; background: #1f1f23; color: #fff; padding: 11px 14px; border-radius: 9px; font: 13px/1.35 var(--ew-font); box-shadow: 0 8px 28px rgba(0,0,0,.3); border-left: 3px solid var(--ew-yellow); max-width: 380px; animation: ew-in .18s ease-out; }
+.ew-toast.ew-error { border-left-color: #ff5468; }
+.ew-toast.ew-ok { border-left-color: #2ecc8a; }
+@keyframes ew-in { from { transform: translateY(6px); opacity: 0; } }
+
+/* Meşgul katmanı */
+.ew-busy { position: fixed; inset: 0; z-index: 5000; display: flex; align-items: center; justify-content: center; background: rgba(15,15,18,.45); backdrop-filter: blur(2px); }
+.ew-busy-box { display: flex; align-items: center; gap: 14px; background: #1f1f23; color: #fff; padding: 18px 22px; border-radius: 12px; font: 14px var(--ew-font); box-shadow: 0 10px 40px rgba(0,0,0,.4); }
+.ew-spin { width: 22px; height: 22px; border-radius: 50%; border: 3px solid #444; border-top-color: var(--ew-yellow); animation: ew-spin .8s linear infinite; }
+@keyframes ew-spin { to { transform: rotate(360deg); } }
+
+/* Hakkında */
+.ew-modal-bg { position: fixed; inset: 0; z-index: 6000; background: rgba(10,10,12,.55); display: flex; align-items: center; justify-content: center; }
+.ew-modal { width: min(560px, 92vw); max-height: 86vh; overflow: auto; background: #18181b; color: var(--ew-text); border-radius: 14px; border: 1px solid #2e2e33; box-shadow: 0 20px 60px rgba(0,0,0,.5); font: 13.5px/1.55 var(--ew-font); }
+.ew-modal header { padding: 26px 28px 18px; border-bottom: 1px solid #2a2a2f; display: flex; flex-direction: column; gap: 14px; }
+.ew-modal header img { height: 40px; align-self: flex-start; }
+.ew-modal .ew-body { padding: 18px 28px 8px; }
+.ew-modal h3 { margin: 14px 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--ew-yellow); }
+.ew-modal p { margin: 0 0 10px; color: #d4d4d8; }
+.ew-modal table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.ew-modal td { padding: 5px 0; border-bottom: 1px solid #26262b; color: #c9c9cf; }
+.ew-modal td:last-child { text-align: right; color: var(--ew-text-dim); }
+.ew-modal a { color: var(--ew-yellow); }
+.ew-modal footer { padding: 14px 28px 22px; display: flex; justify-content: flex-end; }
+
+/* Sürükle bırak */
+.ew-drop { position: fixed; inset: 0; z-index: 4500; pointer-events: none; display: none; align-items: center; justify-content: center; background: rgba(255,195,0,.12); border: 3px dashed var(--ew-yellow); font: 600 20px var(--ew-font); color: #111; }
+.ew-drop.ew-on { display: flex; }
+.ew-drop span { background: var(--ew-yellow); padding: 12px 20px; border-radius: 10px; }
+
+@media print { .ew-bar, .ew-toasts, .ew-busy, .ew-drop { display: none !important; } }

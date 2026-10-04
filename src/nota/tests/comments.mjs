@@ -1,0 +1,26 @@
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const { chromium } = require('/opt/npm-tools/node_modules/playwright');
+const OUT = process.argv[2];
+const b = await chromium.launch(); const page = await b.newPage({ viewport: { width: 1440, height: 900 } });
+page.on('pageerror', (e) => console.log('[pageerror]', e.message));
+await page.goto('http://localhost:8702/modules/nota/index.html?file=/test-files/ornek.docx');
+await page.waitForFunction(() => document.body.classList.contains('nota-ready') && window.__nota.sd?.activeEditor, null, { timeout: 30000 });
+await page.waitForTimeout(1000);
+const l = await page.evaluate(() => { const x = [...document.querySelectorAll('.superdoc-page .superdoc-line')].find((e) => e.textContent.includes('Bu paragraf')); const r = x.getBoundingClientRect(); return { x: r.x, y: r.y + r.height / 2 }; });
+await page.mouse.click(l.x + 10, l.y, { clickCount: 2 });
+await page.waitForTimeout(500);
+const bubbles = await page.$$eval('*', (els) => els.filter((e) => /comment/i.test(e.className && e.className.baseVal === undefined ? e.className : '') && e.getBoundingClientRect().width > 0 && e.getBoundingClientRect().width < 80).map((e) => e.className).slice(0, 10));
+console.log('bubble candidates', bubbles);
+const btn = await page.$('.tools-item, .sd-comment-tool, [class*="comment"][class*="tool"], .superdoc__tools button, .tools button');
+console.log('btn', !!btn);
+if (btn) { await btn.click(); await page.waitForTimeout(800); }
+await page.screenshot({ path: OUT + '/comment1.png' });
+const txt = await page.evaluate(() => { const out = []; document.querySelectorAll('[class*="comment"]').forEach((e) => { if (!e.closest('.superdoc-page')) { const t = e.innerText; if (t && t.trim()) out.push(t.trim().slice(0, 100)); ['placeholder','title','aria-label'].forEach(a=>{const v=e.getAttribute(a); if(v) out.push(a+'='+v);}); } }); return [...new Set(out)].slice(0, 40); });
+console.log(txt);
+await page.keyboard.type('Bu bir açıklama');
+await page.waitForTimeout(300);
+await page.screenshot({ path: OUT + '/comment2.png' });
+const btns = await page.$$eval('button', (bs) => bs.filter(b=>b.offsetParent && !b.closest('.ew-bar') && !b.closest('#nota-status') && !b.closest('#nota-toolbar')).map((b) => b.innerText.trim() + '|' + b.className).slice(0, 20));
+console.log('buttons', btns);
+await b.close();
