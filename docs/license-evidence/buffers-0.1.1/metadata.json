@@ -15,7 +15,6 @@
   "usedBy": [
     "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
   ],
-  "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-buffers']' returned non-zero exit status 1.",
   "author": {
     "url": "http://substack.net",
     "name": "James Halliday",
@@ -23,5 +22,6 @@
   },
   "contributors": null,
   "upstreamDeclaredLicense": "MIT/X11",
-  "licenseDeclarationURL": "https://raw.githubusercontent.com/bitpay/node-buffers/1b745ee35d33eb166e15ef1866073a07c6d7de87/package.json"
+  "licenseDeclarationURL": "https://raw.githubusercontent.com/bitpay/node-buffers/1b745ee35d33eb166e15ef1866073a07c6d7de87/package.json",
+  "retrievalNote": "Requested upstream gitHead/repository could not be retrieved; original distributed README or package license declaration is retained with the standard license text."
 }

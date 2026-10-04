@@ -15,10 +15,10 @@
   "usedBy": [
     "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
   ],
-  "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/ottypes/text/git/trees/bdcfc545c1a2eda48fe5968ae2ce80cf743b9c08?recursive=1']' returned non-zero exit status 1.",
   "author": {
     "name": "Joseph Gentle",
     "email": "me@josephg.com"
   },
-  "contributors": null
+  "contributors": null,
+  "retrievalNote": "Requested upstream gitHead/repository could not be retrieved; original distributed README or package license declaration is retained with the standard license text."
 }

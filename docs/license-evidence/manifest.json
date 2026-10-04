@@ -85,13 +85,13 @@
     "usedBy": [
       "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
     ],
-    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-binary']' returned non-zero exit status 1.",
     "author": {
       "url": "http://substack.net",
       "name": "James Halliday",
       "email": "mail@substack.net"
     },
-    "contributors": null
+    "contributors": null,
+    "retrievalNote": "Requested upstream gitHead/repository could not be retrieved; original distributed README or package license declaration is retained with the standard license text."
   },
   {
     "name": "buffers",
@@ -110,7 +110,6 @@
     "usedBy": [
       "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
     ],
-    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-buffers']' returned non-zero exit status 1.",
     "author": {
       "url": "http://substack.net",
       "name": "James Halliday",
@@ -118,7 +117,8 @@
     },
     "contributors": null,
     "upstreamDeclaredLicense": "MIT/X11",
-    "licenseDeclarationURL": "https://raw.githubusercontent.com/bitpay/node-buffers/1b745ee35d33eb166e15ef1866073a07c6d7de87/package.json"
+    "licenseDeclarationURL": "https://raw.githubusercontent.com/bitpay/node-buffers/1b745ee35d33eb166e15ef1866073a07c6d7de87/package.json",
+    "retrievalNote": "Requested upstream gitHead/repository could not be retrieved; original distributed README or package license declaration is retained with the standard license text."
   },
   {
     "name": "chainsaw",
@@ -137,13 +137,13 @@
     "usedBy": [
       "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
     ],
-    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-chainsaw']' returned non-zero exit status 1.",
     "author": {
       "url": "http://substack.net",
       "name": "James Halliday",
       "email": "mail@substack.net"
     },
-    "contributors": null
+    "contributors": null,
+    "retrievalNote": "Requested upstream gitHead/repository could not be retrieved; original distributed README or package license declaration is retained with the standard license text."
   },
   {
     "name": "franc-min",
@@ -242,12 +242,12 @@
     "usedBy": [
       "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
     ],
-    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/josephg/json1/git/trees/4ef85ce5e0ff9e9b9969da13303913b11fec86cf?recursive=1']' returned non-zero exit status 1.",
     "author": {
       "name": "Joseph Gentle",
       "email": "me@josephg.com"
     },
-    "contributors": null
+    "contributors": null,
+    "retrievalNote": "Requested upstream gitHead/repository could not be retrieved; original distributed README or package license declaration is retained with the standard license text."
   },
   {
     "name": "ot-text-unicode",
@@ -266,12 +266,12 @@
     "usedBy": [
       "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
     ],
-    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/ottypes/text/git/trees/bdcfc545c1a2eda48fe5968ae2ce80cf743b9c08?recursive=1']' returned non-zero exit status 1.",
     "author": {
       "name": "Joseph Gentle",
       "email": "me@josephg.com"
     },
-    "contributors": null
+    "contributors": null,
+    "retrievalNote": "Requested upstream gitHead/repository could not be retrieved; original distributed README or package license declaration is retained with the standard license text."
   },
   {
     "name": "react-remove-scroll-bar",
@@ -290,12 +290,12 @@
     "usedBy": [
       "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
     ],
-    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/theKashey/react-remove-scroll-bar/git/trees/b3b1287aad81def2e2ae707274b74531b61ddbaf?recursive=1']' returned non-zero exit status 1.",
     "author": {
       "name": "Anton Korzunov",
       "email": "thekashey@gmail.com"
     },
-    "contributors": null
+    "contributors": null,
+    "retrievalNote": "Requested upstream gitHead/repository could not be retrieved; original distributed README or package license declaration is retained with the standard license text."
   },
   {
     "name": "saxes",
