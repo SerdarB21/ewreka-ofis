@@ -33,11 +33,18 @@ Kullanılan açık kaynak projeler ve geliştiricilerinin katkıları lisans bil
 
 ## İndirme
 
-Windows, Mac Apple Silicon ve Mac Intel paketleri ile aynı sürümün kaynak arşivi
-[GitHub Releases](https://github.com/SerdarB21/ewreka-ofis/releases/tag/v1.0.0) üzerinden indirilebilir.
-Dosyaları sürümle birlikte verilen `SHA256SUMS.txt` ile doğrulayabilirsiniz.
-Lisans bildirimleri tamamlanmış Windows ve Mac ZIP paketlerini kullanın.
-Windows ZIP arşivindeki installer özgün 1.0.0 installerıdır.
+Kurulum paketleri ücretsizdir. İşletim sisteminize uygun dosyayı indirin:
+
+| İşletim sistemi | İndirme | Kurulum |
+|---|---|---|
+| **Windows** | [Windows kurulum paketini indir](https://github.com/SerdarB21/ewreka-ofis/releases/download/v1.0.0/EwrekaOfis-1.0.0-Windows.zip) | ZIP'i açıp `EwrekaOfis-Kurulum-1.0.0.exe` dosyasını çalıştırın. |
+| **Mac — Apple Silicon (M serisi)** | [Mac Apple Silicon paketini indir](https://github.com/SerdarB21/ewreka-ofis/releases/download/v1.0.0/EwrekaOfis-1.0.0-Mac-AppleSilicon-LisansBildirimleri.zip) | ZIP'i açıp uygulamayı Applications (Uygulamalar) klasörüne taşıyın; paketteki kurulum talimatını izleyin. |
+| **Mac — Intel** | [Mac Intel paketini indir](https://github.com/SerdarB21/ewreka-ofis/releases/download/v1.0.0/EwrekaOfis-1.0.0-Mac-Intel-LisansBildirimleri.zip) | ZIP'i açıp uygulamayı Applications (Uygulamalar) klasörüne taşıyın; paketteki kurulum talimatını izleyin. |
+
+Paketler lisans ve telif bildirimlerini içerir. Yeniden dağıtırken bu bildirimleri koruyun.
+Dosyaları [SHA256SUMS.txt](https://github.com/SerdarB21/ewreka-ofis/releases/download/v1.0.0/SHA256SUMS.txt) ile doğrulayabilirsiniz.
+
+[Aynı sürümün kaynak kodu ve tüm sürüm dosyaları](https://github.com/SerdarB21/ewreka-ofis/releases/tag/v1.0.0).
 Kaynak arşiviyle birlikte SuperDoc kaynak/derleme tamamlayıcısı ve font kaynakları da sunulur.
 
 ## Lisans ve bildirimler
