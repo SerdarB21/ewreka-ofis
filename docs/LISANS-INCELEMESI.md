@@ -58,7 +58,11 @@ bulunamadı. Bu nedenle aşağıdaki yöntemle bir kaynak ağacı hazırlandı:
 5. Bu ağacın runtime ESM ve CJS çıktıları Windows/Node.js 22.22.3/pnpm 10.25.0
    ortamında başarıyla üretildi. Tip bildirimlerinin üretimi kapalıydı; bu işlem
    upstream'in tüm testlerini veya byte-identical paket üretimini doğrulamaz.
-6. Upstream `check:font-licenses` kontrolü geçti.
+6. 122 JavaScript/CJS runtime dosyası npm 1.47.1 dosyalarıyla birebir eşleşti.
+   CSS küçültme açılarak karşılaştırıldığında iki CSS dosyasında aynı 684 üst
+   düzey kuralın aynı içerikleri bulundu; sıraları farklı. Bu, kaskat davranışının
+   eşdeğerliğini veya bütün npm paketinin birebir yeniden üretildiğini iddia etmez.
+7. Upstream `check:font-licenses` kontrolü geçti.
 
 Kaynak arşivi:
 [SuperDoc-1.47.1-Kaynak-ve-Derleme.tar.gz](https://github.com/SerdarB21/ewreka-ofis/releases/download/v1.0.0/SuperDoc-1.47.1-Kaynak-ve-Derleme.tar.gz).

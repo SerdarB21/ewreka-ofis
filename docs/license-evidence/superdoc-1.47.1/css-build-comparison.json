@@ -1,0 +1,6 @@
+{
+  "originalRules": 684,
+  "rebuiltRules": 684,
+  "identicalRuleMultiset": true,
+  "note": "Both minified stylesheets have exactly the same top-level rule contents, in different order. This check does not assert equivalent cascade behavior."
+}

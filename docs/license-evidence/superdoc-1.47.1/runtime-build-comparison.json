@@ -128,5 +128,6 @@
     "style.layered.css"
   ],
   "differentChunkNames": [],
-  "note": "Runtime build succeeded; output differences are not treated as proof of exact upstream package reproduction."
+  "note": "Runtime build succeeded; output differences are not treated as proof of exact upstream package reproduction.",
+  "cssMinificationCheck": "With cssMinify true, both CSS files contain the same 684 top-level rule contents in different order; see css-build-comparison.json."
 }
