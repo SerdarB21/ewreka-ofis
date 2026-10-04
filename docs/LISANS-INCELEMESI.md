@@ -103,8 +103,7 @@ ekler. Windows ZIP'i içindeki installer özgün installer ile aynıdır; Mac ZI
 özgün uygulama paketinin dışında ek bildirimler taşır. İçteki executable/app.asar
 dosyaları yeniden yazılmaz ve uygulamanın sürümü değiştirilmez.
 
-Güncel dağıtım arşivlerini güncel SHA256SUMS.txt ile doğrulayın. Eski teslim
-manifesti yalnızca eski dosyalar için `docs/SHA256SUMS-1.0.0.txt` içinde korunur.
+Güncel dağıtım arşivlerini sürüm sayfasındaki güncel SHA256SUMS.txt ile doğrulayın.
 
 ## Yayın sonrasında korunacak koşullar
 

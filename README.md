@@ -48,8 +48,7 @@ Projenin lisansı **GNU AGPL-3.0-only** lisansıdır. Tam metin [LICENSE](LICENS
 Yazılım olduğu gibi, garanti olmadan sunulur. Dağıttığınız değiştirilmiş sürümler için
 aynı sürümün kaynak kodunu ve derleme betiklerini de sunun.
 
-[Gizlilik politikası](PRIVACY.md) · [Katkı rehberi](CONTRIBUTING.md) ·
-[Yayın ve lisans kuralları](docs/Ewreka-Ofis-Yayin-ve-Lisans-Kurallari.pdf)
+[Gizlilik politikası](PRIVACY.md) · [Katkı rehberi](CONTRIBUTING.md)
 
 [Lisans kapsamı](LICENSE-SCOPE.md) · [Teknik lisans incelemesi ve doğrulamalar](docs/LISANS-INCELEMESI.md) · [Ücretsiz yayın taahhüdü](FREE-DISTRIBUTION.md)
 
@@ -104,9 +103,9 @@ Uygulama hiçbir sunucuya veri göndermez; telemetri/analitik yoktur ve tüm bil
 - Carta: Mevcut PDF metnini doğrudan yeniden yazmaz; ek açıklama ve sayfa işlemleri sunar.
 - Otomatik güncelleme yoktur.
 
-Teslim notuna göre testler Linux ortamında yapılmıştır; gerçek Windows ve Mac üzerinde
+Özgün 1.0.0 sürümünün testleri Linux ortamında yapılmıştır; gerçek Windows ve Mac üzerinde
 kurulum doğrulaması belgelenmemiştir. Bu yayına hazırlık sırasında uygulama yeniden
-derlenmemiştir; teslim edilen 1.0.0 kurulumları ve kaynak arşivi değişmeden sunulur.
+derlenmemiştir; özgün 1.0.0 uygulama dosyaları ek lisans bildirimleriyle sunulur.
 Bash gerektiren Carta derlemesini Windows'ta Git Bash veya WSL ile çalıştırın.
 Modül BUILD.md dosyalarındaki `/home/claude` ve `/opt` yolları önceki derleme ortamına
 aittir; kendi çalışma dizininize ve araç kurulumlarınıza göre uyarlayın.
