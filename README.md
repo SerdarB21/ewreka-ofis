@@ -11,6 +11,17 @@
 
 Masaüstü kabuğu Electron (MIT) ile yazılmıştır. Lisans: **GNU AGPL-3.0-or-later** (bkz. `LICENSE`).
 
+## Ewreka Digital hakkında
+
+**Ewreka Digital**, Ewreka Ofis projesini geliştiren ve yayınlayan markadır.
+Ewreka Ofis; belge, tablo, sunum ve PDF araçlarını Türkçe bir arayüzde bir araya getirir.
+Proje, açık kaynak bileşenler üzerine geliştirilen ücretsiz bir masaüstü ofis paketidir.
+
+**Ewreka Digital'i keşfedin: [www.ewreka.net](https://www.ewreka.net)**
+
+Bu depoyu yıldızlayarak, hata bildirerek veya katkı sunarak projenin gelişimini destekleyebilirsiniz.
+Kullanılan açık kaynak projeler ve geliştiricilerinin katkıları lisans bildirimlerinde belirtilmiştir.
+
 ## İndirme
 
 Windows, Mac Apple Silicon ve Mac Intel paketleri ile aynı sürümün kaynak arşivi
