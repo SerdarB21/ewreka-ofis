@@ -85,3 +85,9 @@ derlenmemiştir; teslim edilen 1.0.0 kurulumları ve kaynak arşivi değişmeden
 Bash gerektiren Carta derlemesini Windows'ta Git Bash veya WSL ile çalıştırın.
 Modül BUILD.md dosyalarındaki `/home/claude` ve `/opt` yolları önceki derleme ortamına
 aittir; kendi çalışma dizininize ve araç kurulumlarınıza göre uyarlayın.
+
+## Web sitesindeki indirme sayfası
+
+`docs/indir.html`, GitHub Releases dosyalarına yönlenen hazır indirme sayfasıdır.
+Mevcut `https://www.ewreka.net/ofis/` adresinde `index.html` adıyla kullanılabilir.
+Uygulamanın Hakkında penceresi bu adrese yönlendiği için kaynak kodu bağlantısı korunmalıdır.
