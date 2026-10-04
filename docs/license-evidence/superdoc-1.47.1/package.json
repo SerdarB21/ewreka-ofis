@@ -1,0 +1,220 @@
+{
+  "name": "superdoc",
+  "type": "module",
+  "version": "1.47.1",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superdoc/docx-editor.git",
+    "directory": "packages/superdoc"
+  },
+  "homepage": "https://www.superdoc.dev/",
+  "bugs": {
+    "url": "https://github.com/superdoc/docx-editor/issues"
+  },
+  "readme": "../../README.md",
+  "files": [
+    "dist",
+    "AGENTS.md"
+  ],
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/superdoc/src/public/index.d.ts",
+        "require": "./dist/superdoc/src/public/index.d.cts"
+      },
+      "import": "./dist/superdoc.es.js",
+      "require": "./dist/superdoc.cjs"
+    },
+    "./types": {
+      "types": {
+        "import": "./dist/superdoc/src/public/types.d.ts",
+        "require": "./dist/superdoc/src/public/types.d.cts"
+      },
+      "import": "./dist/types.es.js",
+      "require": "./dist/types.cjs"
+    },
+    "./converter": {
+      "types": "./dist/superdoc/src/public/legacy/converter.d.ts",
+      "import": "./dist/super-editor/converter.es.js"
+    },
+    "./docx-zipper": {
+      "types": "./dist/superdoc/src/public/legacy/docx-zipper.d.ts",
+      "import": "./dist/super-editor/docx-zipper.es.js"
+    },
+    "./super-editor": {
+      "types": {
+        "import": "./dist/superdoc/src/super-editor.d.ts",
+        "require": "./dist/superdoc/src/super-editor.d.cts"
+      },
+      "import": "./dist/super-editor.es.js",
+      "require": "./dist/super-editor.cjs"
+    },
+    "./headless-toolbar": {
+      "types": "./dist/superdoc/src/public/legacy/headless-toolbar.d.ts",
+      "import": "./dist/headless-toolbar.es.js"
+    },
+    "./ui": {
+      "types": "./dist/superdoc/src/public/ui.d.ts",
+      "import": "./dist/ui.es.js"
+    },
+    "./ui/react": {
+      "types": "./dist/superdoc/src/public/ui-react.d.ts",
+      "import": "./dist/ui-react.es.js"
+    },
+    "./headless-toolbar/react": {
+      "types": "./dist/superdoc/src/public/legacy/headless-toolbar-react.d.ts",
+      "import": "./dist/headless-toolbar-react.es.js"
+    },
+    "./headless-toolbar/vue": {
+      "types": "./dist/superdoc/src/public/legacy/headless-toolbar-vue.d.ts",
+      "import": "./dist/headless-toolbar-vue.es.js"
+    },
+    "./file-zipper": {
+      "types": "./dist/superdoc/src/public/legacy/file-zipper.d.ts",
+      "import": "./dist/super-editor/file-zipper.es.js"
+    },
+    "./style.css": "./dist/style.css",
+    "./style.layered.css": "./dist/style.layered.css"
+  },
+  "types": "./dist/superdoc/src/public/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "headless-toolbar": [
+        "./dist/superdoc/src/public/legacy/headless-toolbar.d.ts"
+      ],
+      "ui": [
+        "./dist/superdoc/src/public/ui.d.ts"
+      ],
+      "ui/react": [
+        "./dist/superdoc/src/public/ui-react.d.ts"
+      ],
+      "headless-toolbar/react": [
+        "./dist/superdoc/src/public/legacy/headless-toolbar-react.d.ts"
+      ],
+      "headless-toolbar/vue": [
+        "./dist/superdoc/src/public/legacy/headless-toolbar-vue.d.ts"
+      ],
+      "super-editor": [
+        "./dist/superdoc/src/super-editor.d.ts"
+      ],
+      "types": [
+        "./dist/superdoc/src/public/types.d.ts"
+      ],
+      "converter": [
+        "./dist/superdoc/src/public/legacy/converter.d.ts"
+      ],
+      "docx-zipper": [
+        "./dist/superdoc/src/public/legacy/docx-zipper.d.ts"
+      ],
+      "file-zipper": [
+        "./dist/superdoc/src/public/legacy/file-zipper.d.ts"
+      ]
+    }
+  },
+  "main": "./dist/superdoc.cjs",
+  "module": "./dist/superdoc.es.js",
+  "dependencies": {
+    "@types/mdast": "^4.0.4",
+    "@types/ws": "^8.18.1",
+    "buffer-crc32": "^1.0.0",
+    "eventemitter3": "^5.0.1",
+    "jsdom": "^27.3.0",
+    "konva": "^10.2.0",
+    "pinia": "^2.1.7",
+    "uuid": "^11.1.1",
+    "vue": "^3.5.0",
+    "y-websocket": "^3.0.0"
+  },
+  "peerDependencies": {
+    "@hocuspocus/provider": "^2.13.6",
+    "pdfjs-dist": "^5.4.296",
+    "prosemirror-model": "^1.25.0",
+    "prosemirror-state": "^1.4.0",
+    "prosemirror-transform": "^1.9.0",
+    "prosemirror-view": "^1.33.0",
+    "react": ">=16.8.0",
+    "y-prosemirror": "^1.3.7",
+    "yjs": "^13.6.19"
+  },
+  "peerDependenciesMeta": {
+    "pdfjs-dist": {
+      "optional": true
+    },
+    "prosemirror-model": {
+      "optional": true
+    },
+    "prosemirror-state": {
+      "optional": true
+    },
+    "prosemirror-transform": {
+      "optional": true
+    },
+    "prosemirror-view": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@hocuspocus/provider": "^2.13.6",
+    "@hocuspocus/server": "^2.13.6",
+    "@vitejs/plugin-vue": "6.0.2",
+    "@vue/test-utils": "^2.4.6",
+    "concurrently": "^9.1.2",
+    "jszip": "3.10.1",
+    "nodemon": "^3.1.10",
+    "pdfjs-dist": "^5.4.296",
+    "postcss-nested": "^6.0.1",
+    "postcss-prefixwrap": "^1.56.2",
+    "prosemirror-model": "^1.25.2",
+    "prosemirror-state": "^1.4.3",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "sirv": "^3.0.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2",
+    "vite": "^7.2.7",
+    "vite-plugin-dts": "~4.5.4",
+    "vite-plugin-node-polyfills": "^0.25.0",
+    "vitest": "^3.2.4",
+    "ws": "^8.18.3",
+    "xml-js": "1.6.11",
+    "@superdoc/layout-bridge": "0.0.0",
+    "@superdoc/contracts": "1.0.0",
+    "@superdoc-dev/superdoc-yjs-collaboration": "1.0.2",
+    "@superdoc/document-api": "0.1.0-alpha.0",
+    "@superdoc/layout-resolved": "0.0.0",
+    "@superdoc/layout-engine": "0.0.0",
+    "@superdoc/measuring-dom": "0.0.0",
+    "@superdoc/style-engine": "0.1.0",
+    "@superdoc/common": "1.0.0",
+    "@superdoc/painter-dom": "0.0.0",
+    "@superdoc/super-editor": "0.0.1"
+  },
+  "publishConfig": {
+    "tag": "legacy"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n VITE,WORD -c cyan,magenta \"vite\" \"node ../../devtools/word-benchmark-sidecar/server.js --stay-alive-on-reuse\"",
+    "dev:collab": "concurrently -k -n VITE,COLLAB,WORD -c cyan,green,magenta \"vite\" \"pnpm run collab-server\" \"node ../../devtools/word-benchmark-sidecar/server.js --stay-alive-on-reuse\"",
+    "collab-server": "pnpm --filter @superdoc-dev/superdoc-yjs-collaboration build && tsx src/dev/collab-server.ts",
+    "word-benchmark-sidecar": "node ../../devtools/word-benchmark-sidecar/server.js",
+    "build": "vite build && pnpm run build:cdn && pnpm run postbuild",
+    "build:dev": "SUPERDOC_SKIP_DTS=1 vite build",
+    "postbuild": "node ./scripts/check-tsconfig-type-surface.cjs && node ./scripts/ensure-types.cjs && node ./scripts/audit-bundle.cjs && node ./scripts/audit-declarations.cjs && node ./scripts/check-export-coverage.cjs && node ./scripts/verify-public-facade-emit.cjs && node ./scripts/report-declaration-reachability.cjs",
+    "audit:declarations": "node ./scripts/audit-declarations.cjs",
+    "audit:declarations:informational": "node ./scripts/audit-declarations.cjs --informational",
+    "check:jsdoc": "node ./scripts/check-jsdoc.cjs",
+    "build:es": "pnpm run build",
+    "watch:es": "vite build --watch",
+    "build:cdn": "vite build --config vite.config.cdn.js",
+    "watch:cdn": "vite build --watch --config vite.config.cdn.js",
+    "clean": "rm -rf dist",
+    "pack:local": "pnpm run pack:es",
+    "pack": "node ./scripts/pack-output.cjs clean && pnpm run build:es && pnpm pack && node ./scripts/pack-output.cjs finalize",
+    "pack:es": "node ./scripts/pack-output.cjs clean && pnpm run build:es && pnpm pack && node ./scripts/pack-output.cjs finalize",
+    "test": "vitest"
+  }
+}

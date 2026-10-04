@@ -1,0 +1,14 @@
+{
+  "EwrekaOfis-1.0.0-Mac-AppleSilicon.zip": {
+    "matchingFiles": 374,
+    "differentFiles": [
+      "package.json"
+    ]
+  },
+  "EwrekaOfis-1.0.0-Mac-Intel.zip": {
+    "matchingFiles": 374,
+    "differentFiles": [
+      "package.json"
+    ]
+  }
+}

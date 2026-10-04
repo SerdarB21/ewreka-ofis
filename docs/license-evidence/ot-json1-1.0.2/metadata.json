@@ -1,0 +1,24 @@
+{
+  "name": "ot-json1",
+  "version": "1.0.2",
+  "declaredLicense": "ISC",
+  "repository": {
+    "url": "git+https://github.com/josephg/json1.git",
+    "type": "git"
+  },
+  "gitHead": "4ef85ce5e0ff9e9b9969da13303913b11fec86cf",
+  "tarball": "https://registry.npmjs.org/ot-json1/-/ot-json1-1.0.2.tgz",
+  "sha256": "4ef9cb668a9ab57ae5e25e66fac4088ea7317b59523a92463be34c316445488e",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+  ],
+  "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/josephg/json1/git/trees/4ef85ce5e0ff9e9b9969da13303913b11fec86cf?recursive=1']' returned non-zero exit status 1.",
+  "author": {
+    "name": "Joseph Gentle",
+    "email": "me@josephg.com"
+  },
+  "contributors": null
+}

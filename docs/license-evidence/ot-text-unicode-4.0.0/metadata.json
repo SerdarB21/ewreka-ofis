@@ -1,0 +1,24 @@
+{
+  "name": "ot-text-unicode",
+  "version": "4.0.0",
+  "declaredLicense": "ISC",
+  "repository": {
+    "url": "git+https://github.com/ottypes/text.git",
+    "type": "git"
+  },
+  "gitHead": "bdcfc545c1a2eda48fe5968ae2ce80cf743b9c08",
+  "tarball": "https://registry.npmjs.org/ot-text-unicode/-/ot-text-unicode-4.0.0.tgz",
+  "sha256": "7bab145a667248e2691fc118b28d135c03e5dcd7bd7e40f189db65e94dea23d3",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+  ],
+  "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/ottypes/text/git/trees/bdcfc545c1a2eda48fe5968ae2ce80cf743b9c08?recursive=1']' returned non-zero exit status 1.",
+  "author": {
+    "name": "Joseph Gentle",
+    "email": "me@josephg.com"
+  },
+  "contributors": null
+}

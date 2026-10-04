@@ -1,0 +1,23 @@
+{
+  "name": "number-precision",
+  "version": "1.6.0",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git+https://github.com/nefe/number-precision.git",
+    "type": "git"
+  },
+  "gitHead": "6e721680ca116b5b2c3c03db2b36ac57358cd595",
+  "tarball": "https://registry.npmjs.org/number-precision/-/number-precision-1.6.0.tgz",
+  "sha256": "eb708842939288313e29e7d3e699f3001407f6df91f22cce3b884ce19638c7d2",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [],
+  "author": {
+    "name": "cam song"
+  },
+  "contributors": null
+}

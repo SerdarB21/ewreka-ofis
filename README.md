@@ -9,7 +9,16 @@
 | **Ewreka Vista** | Sunum | .pptx | PPTist çatalı (AGPL-3.0) |
 | **Ewreka Carta** | PDF görüntüleme/düzenleme | .pdf | Mozilla PDF.js (Apache-2.0) + pdf-lib (MIT) |
 
-Masaüstü kabuğu Electron (MIT) ile yazılmıştır. Lisans: **GNU AGPL-3.0-or-later** (bkz. `LICENSE`).
+Masaüstü kabuğu Electron (MIT) ile yazılmıştır. Lisans: **GNU AGPL-3.0-only** (bkz. `LICENSE`).
+
+## Ücretsiz yayın politikası
+
+**Ewreka Ofis ticari gelir amacı taşımayan bir projedir. Ewreka Digital tarafından
+her zaman tamamen ücretsiz sunulacaktır.** Resmî uygulamanın kullanımı ve indirilmesi
+ücretli lisansa veya aboneliğe bağlanmayacaktır.
+
+Bu, Ewreka Digital'in kendi dağıtımına ilişkin taahhüdüdür. GNU AGPL lisansındaki
+hakları daraltmaz; üçüncü tarafların lisansa uygun kullanım ve dağıtım hakları korunur.
 
 ## Ewreka Digital hakkında
 
@@ -27,10 +36,13 @@ Kullanılan açık kaynak projeler ve geliştiricilerinin katkıları lisans bil
 Windows, Mac Apple Silicon ve Mac Intel paketleri ile aynı sürümün kaynak arşivi
 [GitHub Releases](https://github.com/SerdarB21/ewreka-ofis/releases/tag/v1.0.0) üzerinden indirilebilir.
 Dosyaları sürümle birlikte verilen `SHA256SUMS.txt` ile doğrulayabilirsiniz.
+Lisans bildirimleri tamamlanmış Windows ve Mac ZIP paketlerini kullanın.
+Windows ZIP arşivindeki installer özgün 1.0.0 installerıdır.
+Kaynak arşiviyle birlikte SuperDoc kaynak/derleme tamamlayıcısı ve font kaynakları da sunulur.
 
 ## Lisans ve bildirimler
 
-Projenin lisansı **GNU AGPL-3.0-or-later** lisansıdır. Tam metin [LICENSE](LICENSE) dosyasındadır.
+Projenin lisansı **GNU AGPL-3.0-only** lisansıdır. Tam metin [LICENSE](LICENSE) dosyasındadır.
 Üçüncü taraf bileşenlerin kendi lisansları ve telif bildirimleri korunmuştur:
 [lisanslar dizini](ewreka-ofis/build/lisanslar), [Vista bildirimi](src/vista/NOTICE).
 Yazılım olduğu gibi, garanti olmadan sunulur. Dağıttığınız değiştirilmiş sürümler için
@@ -38,6 +50,8 @@ aynı sürümün kaynak kodunu ve derleme betiklerini de sunun.
 
 [Gizlilik politikası](PRIVACY.md) · [Katkı rehberi](CONTRIBUTING.md) ·
 [Yayın ve lisans kuralları](docs/Ewreka-Ofis-Yayin-ve-Lisans-Kurallari.pdf)
+
+[Lisans kapsamı](LICENSE-SCOPE.md) · [Teknik lisans incelemesi ve doğrulamalar](docs/LISANS-INCELEMESI.md) · [Ücretsiz yayın taahhüdü](FREE-DISTRIBUTION.md)
 
 ## Klasör yapısı
 

@@ -1,0 +1,24 @@
+{
+  "name": "@hocuspocus/common",
+  "version": "2.15.3",
+  "declaredLicense": "MIT",
+  "repository": {},
+  "gitHead": "cd788b6a315f608ef531524409abdce1e6790726",
+  "tarball": "https://registry.npmjs.org/@hocuspocus/common/-/common-2.15.3.tgz",
+  "sha256": "bec35cd4e2371c9937c67f05e941bf4f9ed9e6d57e6b2fe8b7131a933ee35f91",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [
+    {
+      "url": "https://raw.githubusercontent.com/ueberdosis/hocuspocus/cd788b6a315f608ef531524409abdce1e6790726/LICENSE.md",
+      "path": "LICENSE.md",
+      "ref": "cd788b6a315f608ef531524409abdce1e6790726"
+    }
+  ],
+  "author": null,
+  "contributors": null
+}

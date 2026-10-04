@@ -1,0 +1,640 @@
+[
+  {
+    "name": "@pdf-lib/fontkit",
+    "version": "1.1.1",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git://github.com/Hopding/fontkit.git",
+      "type": "git"
+    },
+    "gitHead": null,
+    "tarball": "https://registry.npmjs.org/@pdf-lib/fontkit/-/fontkit-1.1.1.tgz",
+    "sha256": "6dd0ae9209fce419b2ed76c97166863167b4df56d75fbe3c7f1d1e6e49c85867",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Carta-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/Hopding/fontkit/72b8e42bd6a398d496a63a6d483eabeed43861fb/test/data/NotoSans/LICENSE.txt",
+        "path": "test/data/NotoSans/LICENSE.txt",
+        "ref": "72b8e42bd6a398d496a63a6d483eabeed43861fb"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Hopding/fontkit/72b8e42bd6a398d496a63a6d483eabeed43861fb/test/data/OpenSans/LICENSE.txt",
+        "path": "test/data/OpenSans/LICENSE.txt",
+        "ref": "72b8e42bd6a398d496a63a6d483eabeed43861fb"
+      }
+    ],
+    "author": {
+      "name": "Andrew Dillon",
+      "email": "andrew.dillon.j@gmail.com"
+    },
+    "contributors": [
+      {
+        "url": "http://badassjs.com/",
+        "name": "Devon Govett",
+        "email": "devongovett@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "@univerjs/protocol",
+    "version": "1.0.3",
+    "declaredLicense": "Apache-2.0",
+    "repository": {
+      "url": "https://github.com/dream-num/univer",
+      "type": "git"
+    },
+    "gitHead": null,
+    "tarball": "https://registry.npmjs.org/@univerjs/protocol/-/protocol-1.0.3.tgz",
+    "sha256": "013bb850559de4e29d89000490bc6d605392a60545cec3c784eba6cbaba24f1f",
+    "documents": [
+      "package/README.md",
+      "package/lib/types/ts/universer/v1/license.d.ts"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/dream-num/univer/f003a3fdb4dc08a711076db521df2b22583a85a6/LICENSE",
+        "path": "LICENSE",
+        "ref": "f003a3fdb4dc08a711076db521df2b22583a85a6"
+      }
+    ],
+    "author": "DreamNum Co., Ltd. <developer@univer.ai>",
+    "contributors": null
+  },
+  {
+    "name": "binary",
+    "version": "0.3.0",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git://github.com/substack/node-binary.git",
+      "type": "git"
+    },
+    "gitHead": null,
+    "tarball": "https://registry.npmjs.org/binary/-/binary-0.3.0.tgz",
+    "sha256": "940bc9b40fb2a875876e3ca1be3d05a7a419881e4201c76c83ffbb05568b6909",
+    "documents": [
+      "package/README.markdown"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-binary']' returned non-zero exit status 1.",
+    "author": {
+      "url": "http://substack.net",
+      "name": "James Halliday",
+      "email": "mail@substack.net"
+    },
+    "contributors": null
+  },
+  {
+    "name": "buffers",
+    "version": "0.1.1",
+    "declaredLicense": null,
+    "repository": {
+      "url": "git://github.com/substack/node-buffers.git",
+      "type": "git"
+    },
+    "gitHead": null,
+    "tarball": "https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz",
+    "sha256": "f8de49c60e467005182d9687b5d87775bbcec6385ac63220b7741327441deb6d",
+    "documents": [
+      "package/README.markdown"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-buffers']' returned non-zero exit status 1.",
+    "author": {
+      "url": "http://substack.net",
+      "name": "James Halliday",
+      "email": "mail@substack.net"
+    },
+    "contributors": null,
+    "upstreamDeclaredLicense": "MIT/X11",
+    "licenseDeclarationURL": "https://raw.githubusercontent.com/bitpay/node-buffers/1b745ee35d33eb166e15ef1866073a07c6d7de87/package.json"
+  },
+  {
+    "name": "chainsaw",
+    "version": "0.1.0",
+    "declaredLicense": "MIT/X11",
+    "repository": {
+      "url": "git://github.com/substack/node-chainsaw.git",
+      "type": "git"
+    },
+    "gitHead": null,
+    "tarball": "https://registry.npmjs.org/chainsaw/-/chainsaw-0.1.0.tgz",
+    "sha256": "01586a6aa1d1174ae07aff69822d01e0704fe30f23ac22221c9b804bab976cfb",
+    "documents": [
+      "package/README.markdown"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-chainsaw']' returned non-zero exit status 1.",
+    "author": {
+      "url": "http://substack.net",
+      "name": "James Halliday",
+      "email": "mail@substack.net"
+    },
+    "contributors": null
+  },
+  {
+    "name": "franc-min",
+    "version": "6.2.0",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git+https://github.com/wooorm/franc.git#main",
+      "type": "git"
+    },
+    "gitHead": "3f9f0b51a96c5df32a407dad865a3011ac0fa2d1",
+    "tarball": "https://registry.npmjs.org/franc-min/-/franc-min-6.2.0.tgz",
+    "sha256": "82417c7fe3778988b00b1b0c4db783b583ce9c8321dd7279f7a7f67709686654",
+    "documents": [
+      "package/readme.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/franc/3f9f0b51a96c5df32a407dad865a3011ac0fa2d1/license",
+        "path": "license",
+        "ref": "3f9f0b51a96c5df32a407dad865a3011ac0fa2d1"
+      }
+    ],
+    "author": {
+      "url": "http://wooorm.com",
+      "name": "Titus Wormer",
+      "email": "tituswormer@gmail.com"
+    },
+    "contributors": [
+      {
+        "url": "http://wooorm.com",
+        "name": "Titus Wormer",
+        "email": "tituswormer@gmail.com"
+      },
+      {
+        "name": "Kamil Bielawski",
+        "email": "k_bielawski@fastmail.fm"
+      },
+      {
+        "name": "Andrew Pantyukhin",
+        "email": "infofarmer@gmail.com"
+      },
+      {
+        "name": "Dmitriy Sobolev",
+        "email": "disobolev@icloud.com"
+      },
+      {
+        "name": "Jeff Huijsmans",
+        "email": "jeffhuys@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "isarray",
+    "version": "1.0.0",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git://github.com/juliangruber/isarray.git",
+      "type": "git"
+    },
+    "gitHead": "2a23a281f369e9ae06394c0fb4d2381355a6ba33",
+    "tarball": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+    "sha256": "e23c76f14f5222e07e39d89858b61e8e33f96956de9e0df3659cbdf8db950c87",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt",
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt",
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [],
+    "author": {
+      "url": "http://juliangruber.com",
+      "name": "Julian Gruber",
+      "email": "mail@juliangruber.com"
+    },
+    "contributors": null
+  },
+  {
+    "name": "ot-json1",
+    "version": "1.0.2",
+    "declaredLicense": "ISC",
+    "repository": {
+      "url": "git+https://github.com/josephg/json1.git",
+      "type": "git"
+    },
+    "gitHead": "4ef85ce5e0ff9e9b9969da13303913b11fec86cf",
+    "tarball": "https://registry.npmjs.org/ot-json1/-/ot-json1-1.0.2.tgz",
+    "sha256": "4ef9cb668a9ab57ae5e25e66fac4088ea7317b59523a92463be34c316445488e",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/josephg/json1/git/trees/4ef85ce5e0ff9e9b9969da13303913b11fec86cf?recursive=1']' returned non-zero exit status 1.",
+    "author": {
+      "name": "Joseph Gentle",
+      "email": "me@josephg.com"
+    },
+    "contributors": null
+  },
+  {
+    "name": "ot-text-unicode",
+    "version": "4.0.0",
+    "declaredLicense": "ISC",
+    "repository": {
+      "url": "git+https://github.com/ottypes/text.git",
+      "type": "git"
+    },
+    "gitHead": "bdcfc545c1a2eda48fe5968ae2ce80cf743b9c08",
+    "tarball": "https://registry.npmjs.org/ot-text-unicode/-/ot-text-unicode-4.0.0.tgz",
+    "sha256": "7bab145a667248e2691fc118b28d135c03e5dcd7bd7e40f189db65e94dea23d3",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/ottypes/text/git/trees/bdcfc545c1a2eda48fe5968ae2ce80cf743b9c08?recursive=1']' returned non-zero exit status 1.",
+    "author": {
+      "name": "Joseph Gentle",
+      "email": "me@josephg.com"
+    },
+    "contributors": null
+  },
+  {
+    "name": "react-remove-scroll-bar",
+    "version": "2.3.8",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git+https://github.com/theKashey/react-remove-scroll-bar.git",
+      "type": "git"
+    },
+    "gitHead": "b3b1287aad81def2e2ae707274b74531b61ddbaf",
+    "tarball": "https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz",
+    "sha256": "ccc872d7a2dc007cbf9d755f30d56b8d80eabdbe22c44c95a709129bfdc46f01",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/theKashey/react-remove-scroll-bar/git/trees/b3b1287aad81def2e2ae707274b74531b61ddbaf?recursive=1']' returned non-zero exit status 1.",
+    "author": {
+      "name": "Anton Korzunov",
+      "email": "thekashey@gmail.com"
+    },
+    "contributors": null
+  },
+  {
+    "name": "saxes",
+    "version": "5.0.1",
+    "declaredLicense": "ISC",
+    "repository": {
+      "url": "git+https://github.com/lddubeau/saxes.git",
+      "type": "git"
+    },
+    "gitHead": null,
+    "tarball": "https://registry.npmjs.org/saxes/-/saxes-5.0.1.tgz",
+    "sha256": "d39d114627a8c29d1c26fb295dc4c1b81e8805a619f827d39177dfc39904a24b",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/lddubeau/saxes/4968bd09b5fd0270a989c69913614b0e640dae1b/LICENSE",
+        "path": "LICENSE",
+        "ref": "4968bd09b5fd0270a989c69913614b0e640dae1b"
+      }
+    ],
+    "author": {
+      "name": "Louis-Dominique Dubeau",
+      "email": "ldd@lddubeau.com"
+    },
+    "contributors": null
+  },
+  {
+    "name": "unicount",
+    "version": "1.1.0",
+    "declaredLicense": "ISC",
+    "repository": {
+      "url": "git+https://github.com/josephg/unicount.git",
+      "type": "git"
+    },
+    "gitHead": "79d4e85321209b72459cc0ff9d26d51f544039e9",
+    "tarball": "https://registry.npmjs.org/unicount/-/unicount-1.1.0.tgz",
+    "sha256": "a41314ccb5821427f45aa08ac288a0abb401151a06cc4a3cabcceafaf234385d",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [],
+    "author": {
+      "name": "Joseph Gentle",
+      "email": "me@josephg.com"
+    },
+    "contributors": null
+  },
+  {
+    "name": "@hocuspocus/common",
+    "version": "2.15.3",
+    "declaredLicense": "MIT",
+    "repository": {},
+    "gitHead": "cd788b6a315f608ef531524409abdce1e6790726",
+    "tarball": "https://registry.npmjs.org/@hocuspocus/common/-/common-2.15.3.tgz",
+    "sha256": "bec35cd4e2371c9937c67f05e941bf4f9ed9e6d57e6b2fe8b7131a933ee35f91",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/ueberdosis/hocuspocus/cd788b6a315f608ef531524409abdce1e6790726/LICENSE.md",
+        "path": "LICENSE.md",
+        "ref": "cd788b6a315f608ef531524409abdce1e6790726"
+      }
+    ],
+    "author": null,
+    "contributors": null
+  },
+  {
+    "name": "@hocuspocus/provider",
+    "version": "2.15.3",
+    "declaredLicense": "MIT",
+    "repository": {},
+    "gitHead": "cd788b6a315f608ef531524409abdce1e6790726",
+    "tarball": "https://registry.npmjs.org/@hocuspocus/provider/-/provider-2.15.3.tgz",
+    "sha256": "862196262c56fb023d2d58c2a2133cda053c28801d3ecbc2b32c4ee0ccaefa8c",
+    "documents": [],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/ueberdosis/hocuspocus/cd788b6a315f608ef531524409abdce1e6790726/LICENSE.md",
+        "path": "LICENSE.md",
+        "ref": "cd788b6a315f608ef531524409abdce1e6790726"
+      }
+    ],
+    "author": null,
+    "contributors": null
+  },
+  {
+    "name": "@vue/devtools-api",
+    "version": "6.6.4",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git+https://github.com/vuejs/vue-devtools.git",
+      "type": "git",
+      "directory": "packages/api"
+    },
+    "gitHead": "df6ab6bb7791a7a525a97990de73b3ea5e9a1941",
+    "tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.6.4.tgz",
+    "sha256": "635ae91a183f141ae8d3dc82756859632a988946a947626721151fcdf8cfbcc7",
+    "documents": [],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/vuejs/vue-devtools/df6ab6bb7791a7a525a97990de73b3ea5e9a1941/LICENSE",
+        "path": "LICENSE",
+        "ref": "df6ab6bb7791a7a525a97990de73b3ea5e9a1941"
+      }
+    ],
+    "author": {
+      "name": "Guillaume Chau"
+    },
+    "contributors": null
+  },
+  {
+    "name": "saxes",
+    "version": "6.0.0",
+    "declaredLicense": "ISC",
+    "repository": {
+      "url": "git+https://github.com/lddubeau/saxes.git",
+      "type": "git"
+    },
+    "gitHead": "211fa0ebec9b628affc09219199639887174bfc3",
+    "tarball": "https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz",
+    "sha256": "1cdf52fbbe1ccbd175c365d2b8e63f46e590e74aff23fa6a44a6ec51522e96db",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/lddubeau/saxes/211fa0ebec9b628affc09219199639887174bfc3/LICENSE",
+        "path": "LICENSE",
+        "ref": "211fa0ebec9b628affc09219199639887174bfc3"
+      }
+    ],
+    "author": {
+      "name": "Louis-Dominique Dubeau",
+      "email": "ldd@lddubeau.com"
+    },
+    "contributors": null
+  },
+  {
+    "name": "delegate",
+    "version": "3.2.0",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git+https://github.com/zenorocha/delegate.git",
+      "type": "git"
+    },
+    "gitHead": "1fe374c9693576ebf95c42edeb59ebe146aef58f",
+    "tarball": "https://registry.npmjs.org/delegate/-/delegate-3.2.0.tgz",
+    "sha256": "7e0369ceec2aaaf7984534c6a7a2b6ab6478502aec916c7ea502782d022a48fb",
+    "documents": [
+      "package/readme.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [],
+    "author": null,
+    "contributors": null
+  },
+  {
+    "name": "good-listener",
+    "version": "1.2.2",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git+https://github.com/zenorocha/good-listener.git",
+      "type": "git"
+    },
+    "gitHead": "74ff6376e7f0b7c5c8d7e4b228fcbf9189f0d21d",
+    "tarball": "https://registry.npmjs.org/good-listener/-/good-listener-1.2.2.tgz",
+    "sha256": "9d6844c3b08f24393730dd95ffc0a2360a74a9066d2f3c9c0eb0ee3e74577f75",
+    "documents": [
+      "package/readme.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [],
+    "author": null,
+    "contributors": null
+  },
+  {
+    "name": "hfmath",
+    "version": "0.0.2",
+    "declaredLicense": "ISC",
+    "repository": {
+      "url": "git+https://github.com/LingDong-/hfmath.git",
+      "type": "git"
+    },
+    "gitHead": "1c26158b7ed913b22366c855cfda6f2fa2a727a8",
+    "tarball": "https://registry.npmjs.org/hfmath/-/hfmath-0.0.2.tgz",
+    "sha256": "4125b94d5c23b0a30e3d89e4a29ece99656ded7b7b7a37b5fc8c0b0d36594c71",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [],
+    "author": "",
+    "contributors": null
+  },
+  {
+    "name": "https",
+    "version": "1.0.0",
+    "declaredLicense": "ISC",
+    "repository": {},
+    "gitHead": null,
+    "tarball": "https://registry.npmjs.org/https/-/https-1.0.0.tgz",
+    "sha256": "7d6cc44a6471377a9299371e4d207cd2607bbaf7bcca1b220c8bd6831fbbe645",
+    "documents": [],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+    ],
+    "author": {
+      "url": "http://www.sunfork.com",
+      "name": "hardus van der berg",
+      "email": "hardus@sunfork.com"
+    },
+    "contributors": null
+  },
+  {
+    "name": "number-precision",
+    "version": "1.6.0",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git+https://github.com/nefe/number-precision.git",
+      "type": "git"
+    },
+    "gitHead": "6e721680ca116b5b2c3c03db2b36ac57358cd595",
+    "tarball": "https://registry.npmjs.org/number-precision/-/number-precision-1.6.0.tgz",
+    "sha256": "eb708842939288313e29e7d3e699f3001407f6df91f22cce3b884ce19638c7d2",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [],
+    "author": {
+      "name": "cam song"
+    },
+    "contributors": null
+  },
+  {
+    "name": "select",
+    "version": "1.1.2",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git+https://github.com/zenorocha/select.git",
+      "type": "git"
+    },
+    "gitHead": "53e4a21d674cdfb09026e0474d95dc3779e7ff4a",
+    "tarball": "https://registry.npmjs.org/select/-/select-1.1.2.tgz",
+    "sha256": "669bf87efbe97c919d31ba02b837575ce8e1011cd793c9fbc667cb975e993595",
+    "documents": [
+      "package/readme.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [],
+    "author": null,
+    "contributors": null
+  },
+  {
+    "name": "undici-types",
+    "version": "5.26.5",
+    "declaredLicense": "MIT",
+    "repository": {
+      "url": "git+https://github.com/nodejs/undici.git",
+      "type": "git"
+    },
+    "gitHead": "9197790ae0d015b40b75fd0c5cdb7420704b5272",
+    "tarball": "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz",
+    "sha256": "503bffdea1bee0526fb2ac75a4ac01ee5e712f251fabdeb8da4b408a519ed465",
+    "documents": [
+      "package/README.md"
+    ],
+    "usedBy": [
+      "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+    ],
+    "upstreamLicenseDocuments": [
+      {
+        "url": "https://raw.githubusercontent.com/nodejs/undici/9197790ae0d015b40b75fd0c5cdb7420704b5272/LICENSE",
+        "path": "LICENSE",
+        "ref": "9197790ae0d015b40b75fd0c5cdb7420704b5272"
+      }
+    ],
+    "author": null,
+    "contributors": [
+      {
+        "url": "https://github.com/dnlup",
+        "name": "Daniele Belardi"
+      },
+      {
+        "url": "https://github.com/ethan-arrowood",
+        "name": "Ethan Arrowood"
+      },
+      {
+        "url": "https://github.com/mcollina",
+        "name": "Matteo Collina"
+      },
+      {
+        "url": "https://github.com/KhafraDev",
+        "name": "Matthew Aitken"
+      },
+      {
+        "url": "https://github.com/ronag",
+        "name": "Robert Nagy"
+      },
+      {
+        "url": "https://github.com/szmarczak",
+        "name": "Szymon Marczak"
+      },
+      {
+        "url": "https://github.com/delvedor",
+        "name": "Tomas Della Vedova"
+      }
+    ]
+  }
+]

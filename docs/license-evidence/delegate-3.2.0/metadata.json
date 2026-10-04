@@ -1,0 +1,21 @@
+{
+  "name": "delegate",
+  "version": "3.2.0",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git+https://github.com/zenorocha/delegate.git",
+    "type": "git"
+  },
+  "gitHead": "1fe374c9693576ebf95c42edeb59ebe146aef58f",
+  "tarball": "https://registry.npmjs.org/delegate/-/delegate-3.2.0.tgz",
+  "sha256": "7e0369ceec2aaaf7984534c6a7a2b6ab6478502aec916c7ea502782d022a48fb",
+  "documents": [
+    "package/readme.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [],
+  "author": null,
+  "contributors": null
+}

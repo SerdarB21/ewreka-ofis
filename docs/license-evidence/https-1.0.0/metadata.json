@@ -1,0 +1,19 @@
+{
+  "name": "https",
+  "version": "1.0.0",
+  "declaredLicense": "ISC",
+  "repository": {},
+  "gitHead": null,
+  "tarball": "https://registry.npmjs.org/https/-/https-1.0.0.tgz",
+  "sha256": "7d6cc44a6471377a9299371e4d207cd2607bbaf7bcca1b220c8bd6831fbbe645",
+  "documents": [],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+  ],
+  "author": {
+    "url": "http://www.sunfork.com",
+    "name": "hardus van der berg",
+    "email": "hardus@sunfork.com"
+  },
+  "contributors": null
+}

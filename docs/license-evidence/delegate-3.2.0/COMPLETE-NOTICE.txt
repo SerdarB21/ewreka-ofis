@@ -1,0 +1,129 @@
+delegate 3.2.0 — MIT
+
+Npm dağıtımı: https://registry.npmjs.org/delegate/-/delegate-3.2.0.tgz
+
+Paket yazarı / attribution: Zeno Rocha
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__readme.md ---
+
+# delegate
+
+Lightweight event delegation.
+
+## Install
+
+You can get it on npm.
+
+```
+npm install delegate --save
+```
+
+If you're not into package management, just [download a ZIP](https://github.com/zenorocha/delegate/archive/master.zip) file.
+
+## Setup
+
+###### Node (Browserify)
+
+```js
+var delegate = require('delegate');
+```
+
+###### Browser (Standalone)
+
+```html
+<script src="dist/delegate.js"></script>
+```
+
+## Usage
+
+### Add event delegation
+
+#### With the default base (`document`)
+
+```js
+delegate('.btn', 'click', function(e) {
+    console.log(e.delegateTarget);
+}, false);
+```
+
+#### With an element as base
+
+```js
+delegate(document.body, '.btn', 'click', function(e) {
+    console.log(e.delegateTarget);
+}, false);
+```
+
+#### With a selector (of existing elements) as base
+
+```js
+delegate('.container', '.btn', 'click', function(e) {
+    console.log(e.delegateTarget);
+}, false);
+```
+
+#### With an array/array-like of elements as base
+
+```js
+delegate(document.querySelectorAll('.container'), '.btn', 'click', function(e) {
+    console.log(e.delegateTarget);
+}, false);
+```
+
+### Remove event delegation
+
+#### With a single base element (default or specified)
+
+```js
+var delegation = delegate(document.body, '.btn', 'click', function(e) {
+    console.log(e.delegateTarget);
+}, false);
+
+delegation.destroy();
+```
+
+#### With multiple elements (via selector or array)
+
+Note: selectors are always treated as multiple elements, even if one or none are matched. `delegate()` will return an array.
+
+```js
+var delegations = delegate('.container', '.btn', 'click', function(e) {
+    console.log(e.delegateTarget);
+}, false);
+
+delegations.forEach(function (delegation) {
+    delegation.destroy();
+});
+```
+
+## Browser Support
+
+| <img src="https://clipboardjs.com/assets/images/chrome.png" width="48px" height="48px" alt="Chrome logo"> | <img src="https://clipboardjs.com/assets/images/edge.png" width="48px" height="48px" alt="Edge logo"> | <img src="https://clipboardjs.com/assets/images/firefox.png" width="48px" height="48px" alt="Firefox logo"> | <img src="https://clipboardjs.com/assets/images/ie.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="https://clipboardjs.com/assets/images/opera.png" width="48px" height="48px" alt="Opera logo"> | <img src="https://clipboardjs.com/assets/images/safari.png" width="48px" height="48px" alt="Safari logo"> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Latest ✔ | Latest ✔ | Latest ✔ | 9+ ✔ | Latest ✔ | Latest ✔ |
+
+## License
+
+[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha
+
+
+--- SPDX standart MIT metni (özgün atıflarla birlikte) ---
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.

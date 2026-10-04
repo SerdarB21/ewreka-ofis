@@ -1,0 +1,25 @@
+{
+  "name": "chainsaw",
+  "version": "0.1.0",
+  "declaredLicense": "MIT/X11",
+  "repository": {
+    "url": "git://github.com/substack/node-chainsaw.git",
+    "type": "git"
+  },
+  "gitHead": null,
+  "tarball": "https://registry.npmjs.org/chainsaw/-/chainsaw-0.1.0.tgz",
+  "sha256": "01586a6aa1d1174ae07aff69822d01e0704fe30f23ac22221c9b804bab976cfb",
+  "documents": [
+    "package/README.markdown"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+  ],
+  "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-chainsaw']' returned non-zero exit status 1.",
+  "author": {
+    "url": "http://substack.net",
+    "name": "James Halliday",
+    "email": "mail@substack.net"
+  },
+  "contributors": null
+}

@@ -1,0 +1,21 @@
+{
+  "name": "good-listener",
+  "version": "1.2.2",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git+https://github.com/zenorocha/good-listener.git",
+    "type": "git"
+  },
+  "gitHead": "74ff6376e7f0b7c5c8d7e4b228fcbf9189f0d21d",
+  "tarball": "https://registry.npmjs.org/good-listener/-/good-listener-1.2.2.tgz",
+  "sha256": "9d6844c3b08f24393730dd95ffc0a2360a74a9066d2f3c9c0eb0ee3e74577f75",
+  "documents": [
+    "package/readme.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [],
+  "author": null,
+  "contributors": null
+}

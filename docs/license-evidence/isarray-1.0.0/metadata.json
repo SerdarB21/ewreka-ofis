@@ -1,0 +1,27 @@
+{
+  "name": "isarray",
+  "version": "1.0.0",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git://github.com/juliangruber/isarray.git",
+    "type": "git"
+  },
+  "gitHead": "2a23a281f369e9ae06394c0fb4d2381355a6ba33",
+  "tarball": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+  "sha256": "e23c76f14f5222e07e39d89858b61e8e33f96956de9e0df3659cbdf8db950c87",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt",
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt",
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [],
+  "author": {
+    "url": "http://juliangruber.com",
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com"
+  },
+  "contributors": null
+}

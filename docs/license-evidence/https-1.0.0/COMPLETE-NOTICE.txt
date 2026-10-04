@@ -1,0 +1,18 @@
+https 1.0.0 — ISC
+
+Npm dağıtımı: https://registry.npmjs.org/https/-/https-1.0.0.tgz
+
+Paket yazarı / attribution: hardus van der berg
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- SPDX standart ISC metni (özgün atıflarla birlikte) ---
+
+ISC License
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+Bu npm arşivi yalnızca package.json içerir; çalıştırılabilir index.js veya başka kaynak kod yoktur. ISC beyanı paket meta verisidir.

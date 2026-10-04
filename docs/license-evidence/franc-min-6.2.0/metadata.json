@@ -1,0 +1,53 @@
+{
+  "name": "franc-min",
+  "version": "6.2.0",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git+https://github.com/wooorm/franc.git#main",
+    "type": "git"
+  },
+  "gitHead": "3f9f0b51a96c5df32a407dad865a3011ac0fa2d1",
+  "tarball": "https://registry.npmjs.org/franc-min/-/franc-min-6.2.0.tgz",
+  "sha256": "82417c7fe3778988b00b1b0c4db783b583ce9c8321dd7279f7a7f67709686654",
+  "documents": [
+    "package/readme.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [
+    {
+      "url": "https://raw.githubusercontent.com/wooorm/franc/3f9f0b51a96c5df32a407dad865a3011ac0fa2d1/license",
+      "path": "license",
+      "ref": "3f9f0b51a96c5df32a407dad865a3011ac0fa2d1"
+    }
+  ],
+  "author": {
+    "url": "http://wooorm.com",
+    "name": "Titus Wormer",
+    "email": "tituswormer@gmail.com"
+  },
+  "contributors": [
+    {
+      "url": "http://wooorm.com",
+      "name": "Titus Wormer",
+      "email": "tituswormer@gmail.com"
+    },
+    {
+      "name": "Kamil Bielawski",
+      "email": "k_bielawski@fastmail.fm"
+    },
+    {
+      "name": "Andrew Pantyukhin",
+      "email": "infofarmer@gmail.com"
+    },
+    {
+      "name": "Dmitriy Sobolev",
+      "email": "disobolev@icloud.com"
+    },
+    {
+      "name": "Jeff Huijsmans",
+      "email": "jeffhuys@gmail.com"
+    }
+  ]
+}

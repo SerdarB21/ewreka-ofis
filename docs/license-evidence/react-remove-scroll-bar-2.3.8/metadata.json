@@ -1,0 +1,24 @@
+{
+  "name": "react-remove-scroll-bar",
+  "version": "2.3.8",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git+https://github.com/theKashey/react-remove-scroll-bar.git",
+    "type": "git"
+  },
+  "gitHead": "b3b1287aad81def2e2ae707274b74531b61ddbaf",
+  "tarball": "https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz",
+  "sha256": "ccc872d7a2dc007cbf9d755f30d56b8d80eabdbe22c44c95a709129bfdc46f01",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+  ],
+  "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/theKashey/react-remove-scroll-bar/git/trees/b3b1287aad81def2e2ae707274b74531b61ddbaf?recursive=1']' returned non-zero exit status 1.",
+  "author": {
+    "name": "Anton Korzunov",
+    "email": "thekashey@gmail.com"
+  },
+  "contributors": null
+}

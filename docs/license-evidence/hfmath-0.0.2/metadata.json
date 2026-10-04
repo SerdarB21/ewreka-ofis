@@ -1,0 +1,21 @@
+{
+  "name": "hfmath",
+  "version": "0.0.2",
+  "declaredLicense": "ISC",
+  "repository": {
+    "url": "git+https://github.com/LingDong-/hfmath.git",
+    "type": "git"
+  },
+  "gitHead": "1c26158b7ed913b22366c855cfda6f2fa2a727a8",
+  "tarball": "https://registry.npmjs.org/hfmath/-/hfmath-0.0.2.tgz",
+  "sha256": "4125b94d5c23b0a30e3d89e4a29ece99656ded7b7b7a37b5fc8c0b0d36594c71",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [],
+  "author": "",
+  "contributors": null
+}

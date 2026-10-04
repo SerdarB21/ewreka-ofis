@@ -1,0 +1,56 @@
+{
+  "name": "undici-types",
+  "version": "5.26.5",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git+https://github.com/nodejs/undici.git",
+    "type": "git"
+  },
+  "gitHead": "9197790ae0d015b40b75fd0c5cdb7420704b5272",
+  "tarball": "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz",
+  "sha256": "503bffdea1bee0526fb2ac75a4ac01ee5e712f251fabdeb8da4b408a519ed465",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [
+    {
+      "url": "https://raw.githubusercontent.com/nodejs/undici/9197790ae0d015b40b75fd0c5cdb7420704b5272/LICENSE",
+      "path": "LICENSE",
+      "ref": "9197790ae0d015b40b75fd0c5cdb7420704b5272"
+    }
+  ],
+  "author": null,
+  "contributors": [
+    {
+      "url": "https://github.com/dnlup",
+      "name": "Daniele Belardi"
+    },
+    {
+      "url": "https://github.com/ethan-arrowood",
+      "name": "Ethan Arrowood"
+    },
+    {
+      "url": "https://github.com/mcollina",
+      "name": "Matteo Collina"
+    },
+    {
+      "url": "https://github.com/KhafraDev",
+      "name": "Matthew Aitken"
+    },
+    {
+      "url": "https://github.com/ronag",
+      "name": "Robert Nagy"
+    },
+    {
+      "url": "https://github.com/szmarczak",
+      "name": "Szymon Marczak"
+    },
+    {
+      "url": "https://github.com/delvedor",
+      "name": "Tomas Della Vedova"
+    }
+  ]
+}

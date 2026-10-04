@@ -1,0 +1,27 @@
+{
+  "name": "buffers",
+  "version": "0.1.1",
+  "declaredLicense": null,
+  "repository": {
+    "url": "git://github.com/substack/node-buffers.git",
+    "type": "git"
+  },
+  "gitHead": null,
+  "tarball": "https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz",
+  "sha256": "f8de49c60e467005182d9687b5d87775bbcec6385ac63220b7741327441deb6d",
+  "documents": [
+    "package/README.markdown"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+  ],
+  "retrievalError": "Command '['C:\\\\Users\\\\Serda\\\\OneDrive\\\\Masaüstü\\\\web\\\\ewreka yazılımlar\\\\ewreka office\\\\.tools\\\\gh\\\\bin\\\\gh.exe', 'api', 'repos/substack/node-buffers']' returned non-zero exit status 1.",
+  "author": {
+    "url": "http://substack.net",
+    "name": "James Halliday",
+    "email": "mail@substack.net"
+  },
+  "contributors": null,
+  "upstreamDeclaredLicense": "MIT/X11",
+  "licenseDeclarationURL": "https://raw.githubusercontent.com/bitpay/node-buffers/1b745ee35d33eb166e15ef1866073a07c6d7de87/package.json"
+}

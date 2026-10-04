@@ -1,0 +1,28 @@
+{
+  "name": "@vue/devtools-api",
+  "version": "6.6.4",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git+https://github.com/vuejs/vue-devtools.git",
+    "type": "git",
+    "directory": "packages/api"
+  },
+  "gitHead": "df6ab6bb7791a7a525a97990de73b3ea5e9a1941",
+  "tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.6.4.tgz",
+  "sha256": "635ae91a183f141ae8d3dc82756859632a988946a947626721151fcdf8cfbcc7",
+  "documents": [],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [
+    {
+      "url": "https://raw.githubusercontent.com/vuejs/vue-devtools/df6ab6bb7791a7a525a97990de73b3ea5e9a1941/LICENSE",
+      "path": "LICENSE",
+      "ref": "df6ab6bb7791a7a525a97990de73b3ea5e9a1941"
+    }
+  ],
+  "author": {
+    "name": "Guillaume Chau"
+  },
+  "contributors": null
+}

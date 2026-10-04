@@ -5051,7 +5051,231 @@ Apache License
 
 
 ==== @univerjs/protocol 1.0.3 — Apache-2.0 ====
-(lisans dosyası pakette yok; lisans: Apache-2.0)
+
+Npm dağıtımı: https://registry.npmjs.org/@univerjs/protocol/-/protocol-1.0.3.tgz
+
+Paket yazarı / attribution: DreamNum Co., Ltd. <developer@univer.ai>
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.md ---
+
+# @univerjs/protocol
+
+[![npm version](https://img.shields.io/npm/v/@univerjs/protocol?style=flat-square)](https://npmjs.com/package/@univerjs/protocol)
+[![license](https://img.shields.io/npm/l/@univerjs/protocol?style=flat-square)](https://npmjs.com/package/@univerjs/protocol)
+[![downloads](https://img.shields.io/npm/dm/@univerjs/protocol?style=flat-square)](https://npmjs.com/package/@univerjs/protocol)
+
+`@univerjs/protocol` contains shared protocol types, generated service interfaces, and data contracts used across Univer packages.
+
+## Package Overview
+
+| Package | UMD global | CSS | Locales | Facade entry |
+| --- | --- | :---: | :---: | :---: |
+| `@univerjs/protocol` | `UniverProtocol` | No | No | No |
+
+## Installation
+
+```sh
+pnpm add @univerjs/protocol
+# or
+npm install @univerjs/protocol
+```
+
+Keep all `@univerjs/*` packages on the same version.
+
+## Usage
+
+```ts
+import type { IWorkbookMeta } from '@univerjs/protocol';
+```
+
+## Resources
+
+- [Documentation](https://docs.univer.ai)
+- [NPM package](https://npmjs.com/package/@univerjs/protocol)
+- [GitHub repository](https://github.com/dream-num/univer)
+
+
+--- Özgün belge: UPSTREAM__LICENSE ---
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
 
 ==== @univerjs/rpc 1.0.3 — Apache-2.0 ====
 Apache License
@@ -9524,7 +9748,213 @@ For more information, please refer to <http://unlicense.org>
 
 
 ==== binary 0.3.0 — MIT ====
-(lisans dosyası pakette yok; lisans: MIT)
+
+Npm dağıtımı: https://registry.npmjs.org/binary/-/binary-0.3.0.tgz
+
+Paket yazarı / attribution: James Halliday
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.markdown ---
+
+binary
+======
+
+Unpack multibyte binary values from buffers and streams.
+You can specify the endianness and signedness of the fields to be unpacked too.
+
+This module is a cleaner and more complete version of
+[bufferlist](https://github.com/substack/node-bufferlist)'s binary module that
+runs on pre-allocated buffers instead of a linked list.
+
+[![build status](https://secure.travis-ci.org/substack/node-binary.png)](http://travis-ci.org/substack/node-binary)
+
+examples
+========
+
+stream.js
+---------
+
+``` js
+var binary = require('binary');
+
+var ws = binary()
+    .word32lu('x')
+    .word16bs('y')
+    .word16bu('z')
+    .tap(function (vars) {
+        console.dir(vars);
+    })
+;
+process.stdin.pipe(ws);
+process.stdin.resume();
+```
+
+output:
+
+```
+$ node examples/stream.js
+abcdefgh
+{ x: 1684234849, y: 25958, z: 26472 }
+^D
+```
+
+parse.js
+--------
+
+``` js
+var buf = new Buffer([ 97, 98, 99, 100, 101, 102, 0 ]);
+
+var binary = require('binary');
+var vars = binary.parse(buf)
+    .word16ls('ab')
+    .word32bu('cf')
+    .word8('x')
+    .vars
+;
+console.dir(vars);
+```
+
+output:
+
+```
+{ ab: 25185, cf: 1667523942, x: 0 }
+```
+
+methods
+=======
+
+`var binary = require('binary')`
+
+var b = binary()
+----------------
+
+Return a new writable stream `b` that has the chainable methods documented below
+for buffering binary input.
+
+binary.parse(buf)
+-----------------
+
+Parse a static buffer in one pass. Returns a chainable interface with the
+methods below plus a `vars` field to get at the variable stash as the last item
+in a chain.
+
+In parse mode, methods will set their keys to `null` if the buffer isn't big
+enough except `buffer()` and `scan()` which read up up to the end of the buffer
+and stop.
+
+b.word{8,16,32,64}{l,b}{e,u,s}(key)
+-----------------------------------
+
+Parse bytes in the buffer or stream given:
+
+* number of bits
+* endianness ( l : little, b : big ),
+* signedness ( u and e : unsigned, s : signed )
+
+These functions won't start parsing until all previous parser functions have run
+and the data is available.
+
+The result of the parse goes into the variable stash at `key`.
+If `key` has dots (`.`s), it refers to a nested address. If parent container
+values don't exist they will be created automatically, so for instance you can
+assign into `dst.addr` and `dst.port` and the `dst` key in the variable stash
+will be `{ addr : x, port : y }` afterwards.
+
+b.buffer(key, size)
+-------------------
+
+Take `size` bytes directly off the buffer stream, putting the resulting buffer
+slice in the variable stash at `key`. If `size` is a string, use the value at
+`vars[size]`. The key follows the same dotted address rules as the word
+functions.
+
+b.scan(key, buffer)
+-------------------
+
+Search for `buffer` in the stream and store all the intervening data in the
+stash at at `key`, excluding the search buffer. If `buffer` passed as a string,
+it will be converted into a Buffer internally.
+
+For example, to read in a line you can just do:
+
+``` js
+var b = binary()
+    .scan('line', new Buffer('\r\n'))
+    .tap(function (vars) {
+        console.log(vars.line)
+    })
+;
+stream.pipe(b);
+```
+
+b.tap(cb)
+---------
+
+The callback `cb` is provided with the variable stash from all the previous
+actions once they've all finished.
+
+You can nest additional actions onto `this` inside the callback.
+
+b.into(key, cb)
+---------------
+
+Like `.tap()`, except all nested actions will assign into a `key` in the `vars`
+stash.
+
+b.loop(cb)
+----------
+
+Loop, each time calling `cb(end, vars)` for function `end` and the variable
+stash with `this` set to a new chain for nested parsing. The loop terminates
+once `end` is called.
+
+b.flush()
+---------
+
+Clear the variable stash entirely.
+
+installation
+============
+
+To install with [npm](http://github.com/isaacs/npm):
+
+```
+npm install binary
+```
+
+notes
+=====
+
+The word64 functions will only return approximations since javascript uses ieee
+floating point for all number types. Mind the loss of precision.
+
+license
+=======
+
+MIT
+
+
+
+--- SPDX standart MIT metni (özgün atıflarla birlikte) ---
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ==== bl 4.1.0 — MIT ====
 The MIT License (MIT)
@@ -9660,11 +10090,367 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-==== buffers 0.1.1 — bilinmiyor ====
-(lisans dosyası pakette yok; lisans: None)
+==== buffers 0.1.1 — MIT/X11 ====
+
+Npm dağıtımı: https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz
+
+Paket yazarı / attribution: James Halliday
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.markdown ---
+
+buffers
+=======
+
+Treat a collection of Buffers as a single contiguous partially mutable Buffer.
+
+Where possible, operations execute without creating a new Buffer and copying
+everything over.
+
+This is a cleaner more Buffery rehash of
+[bufferlist](http://github.com/substack/node-bufferlist).
+
+example
+=======
+
+slice
+-----
+
+    var Buffers = require('buffers');
+    var bufs = Buffers();
+    bufs.push(new Buffer([1,2,3]));
+    bufs.push(new Buffer([4,5,6,7]));
+    bufs.push(new Buffer([8,9,10]));
+    
+    console.dir(bufs.slice(2,8))
+
+output:
+
+    $ node examples/slice.js 
+    <Buffer 03 04 05 06 07 08>
+
+splice
+------
+
+    var Buffers = require('buffers');
+    var bufs = Buffers([
+        new Buffer([1,2,3]),
+        new Buffer([4,5,6,7]),
+        new Buffer([8,9,10]),
+    ]);
+    
+    var removed = bufs.splice(2, 4);
+    console.dir({
+        removed : removed.slice(),
+        bufs : bufs.slice(),
+    });
+    
+output:
+
+    $ node examples/splice.js
+    { removed: <Buffer 03 04 05 06>,
+      bufs: <Buffer 01 02 07 08 09 0a> }
+
+methods
+=======
+
+Buffers(buffers)
+----------------
+
+Create a Buffers with an array of `Buffer`s if specified, else `[]`.
+
+.push(buf1, buf2...)
+--------------------
+
+Push buffers onto the end. Just like `Array.prototype.push`.
+
+.unshift(buf1, buf2...)
+-----------------------
+
+Unshift buffers onto the head. Just like `Array.prototype.unshift`.
+
+.slice(i, j)
+------------
+
+Slice a range out of the buffer collection as if it were contiguous.
+Works just like the `Array.prototype.slice` version.
+
+.splice(i, howMany, replacements)
+---------------------------------
+
+Splice the buffer collection as if it were contiguous.
+Works just like `Array.prototype.splice`, even the replacement part!
+
+.copy(dst, dstStart, start, end)
+--------------------------------
+
+Copy the buffer collection as if it were contiguous to the `dst` Buffer with the
+specified bounds.
+Works just like `Buffer.prototype.copy`.
+
+.get(i)
+-------
+
+Get a single element at index `i`.
+
+.set(i, x)
+----------
+
+Set a single element's value at index `i`.
+
+.indexOf(needle, offset)
+----------
+
+Find a string or buffer `needle` inside the buffer collection. Returns
+the position of the search string or -1 if the search string was not
+found.
+
+Provide an `offset` to skip that number of characters at the beginning
+of the search. This can be used to find additional matches.
+
+This function will return the correct result even if the search string
+is spread out over multiple internal buffers.
+
+.toBuffer()
+-----------
+
+Convert the buffer collection to a single buffer, equivalent with `.slice(0, buffers.length)`;
+
+.toString(encoding, start, end)
+-----------
+
+Decodes and returns a string from the buffer collection.
+Works just like `Buffer.prototype.toString`
+
+
+--- Özgün belge: UPSTREAM__license-declaration.json ---
+
+{
+    "name" : "buffers",
+    "description" : "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
+    "version" : "0.1.1",
+    "repository" : "http://github.com/substack/node-buffers.git",
+    "author" : "James Halliday <mail@substack.net> (http://substack.net)",
+    "main" : "./index",
+    "scripts" : {
+        "test" : "expresso"
+    },
+    "engines" : {
+        "node" : ">=0.2.0"
+    },
+    "license" : "MIT/X11"
+}
+
+
+--- SPDX standart MIT metni (özgün atıflarla birlikte) ---
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ==== chainsaw 0.1.0 — MIT/X11 ====
-(lisans dosyası pakette yok; lisans: MIT/X11)
+
+Npm dağıtımı: https://registry.npmjs.org/chainsaw/-/chainsaw-0.1.0.tgz
+
+Paket yazarı / attribution: James Halliday
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.markdown ---
+
+Chainsaw
+========
+
+Build chainable fluent interfaces the easy way in node.js.
+
+With this meta-module you can write modules with chainable interfaces.
+Chainsaw takes care of all of the boring details and makes nested flow control
+super simple too.
+
+Just call `Chainsaw` with a constructor function like in the examples below.
+In your methods, just do `saw.next()` to move along to the next event and
+`saw.nest()` to create a nested chain.
+
+Examples
+========
+
+add_do.js
+---------
+
+This silly example adds values with a chainsaw.
+
+    var Chainsaw = require('chainsaw');
+    
+    function AddDo (sum) {
+        return Chainsaw(function (saw) {
+            this.add = function (n) {
+                sum += n;
+                saw.next();
+            };
+             
+            this.do = function (cb) {
+                saw.nest(cb, sum);
+            };
+        });
+    }
+    
+    AddDo(0)
+        .add(5)
+        .add(10)
+        .do(function (sum) {
+            if (sum > 12) this.add(-10);
+        })
+        .do(function (sum) {
+            console.log('Sum: ' + sum);
+        })
+    ;
+
+Output:
+    Sum: 5
+
+prompt.js
+---------
+
+This example provides a wrapper on top of stdin with the help of
+[node-lazy](https://github.com/pkrumins/node-lazy) for line-processing.
+
+    var Chainsaw = require('chainsaw');
+    var Lazy = require('lazy');
+    
+    module.exports = Prompt;
+    function Prompt (stream) {
+        var waiting = [];
+        var lines = [];
+        var lazy = Lazy(stream).lines.map(String)
+            .forEach(function (line) {
+                if (waiting.length) {
+                    var w = waiting.shift();
+                    w(line);
+                }
+                else lines.push(line);
+            })
+        ;
+        
+        var vars = {};
+        return Chainsaw(function (saw) {
+            this.getline = function (f) {
+                var g = function (line) {
+                    saw.nest(f, line, vars);
+                };
+                
+                if (lines.length) g(lines.shift());
+                else waiting.push(g);
+            };
+            
+            this.do = function (cb) {
+                saw.nest(cb, vars);
+            };
+        });
+    }
+
+And now for the new Prompt() module in action:
+
+    var util = require('util');
+    var stdin = process.openStdin();
+     
+    Prompt(stdin)
+        .do(function () {
+            util.print('x = ');
+        })
+        .getline(function (line, vars) {
+            vars.x = parseInt(line, 10);
+        })
+        .do(function () {
+            util.print('y = ');
+        })
+        .getline(function (line, vars) {
+            vars.y = parseInt(line, 10);
+        })
+        .do(function (vars) {
+            if (vars.x + vars.y < 10) {
+                util.print('z = ');
+                this.getline(function (line) {
+                    vars.z = parseInt(line, 10);
+                })
+            }
+            else {
+                vars.z = 0;
+            }
+        })
+        .do(function (vars) {
+            console.log('x + y + z = ' + (vars.x + vars.y + vars.z));
+            process.exit();
+        })
+    ;
+
+Installation
+============
+
+With [npm](http://github.com/isaacs/npm), just do:
+    npm install chainsaw
+
+or clone this project on github:
+
+    git clone http://github.com/substack/node-chainsaw.git
+
+To run the tests with [expresso](http://github.com/visionmedia/expresso),
+just do:
+
+    expresso
+
+
+Light Mode vs Full Mode
+=======================
+
+`node-chainsaw` supports two different modes. In full mode, every
+action is recorded, which allows you to replay actions using the
+`jump()`, `trap()` and `down()` methods.
+
+However, if your chainsaws are long-lived, recording every action can
+consume a tremendous amount of memory, so we also offer a "light" mode
+where actions are not recorded and the aforementioned methods are
+disabled.
+
+To enable light mode simply use `Chainsaw.light()` to construct your
+saw, instead of `Chainsaw()`.
+
+
+
+
+--- SPDX standart MIT metni (özgün atıflarla birlikte) ---
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ==== class-variance-authority 0.7.1 — Apache-2.0 ====
 Apache License
@@ -10706,7 +11492,160 @@ SOFTWARE.
 
 
 ==== franc-min 6.2.0 — MIT ====
-(lisans dosyası pakette yok; lisans: MIT)
+
+Npm dağıtımı: https://registry.npmjs.org/franc-min/-/franc-min-6.2.0.tgz
+
+Paket yazarı / attribution: Titus Wormer
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__readme.md ---
+
+<!--This file is generated by `build.js`-->
+
+# franc-min
+
+Detect the language of text.
+
+Built with support for 82 languages (8M or more speakers).
+
+View the [monorepo](https://github.com/wooorm/franc) for more packages and
+info on using them.
+
+## Install
+
+This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c).
+In Node.js (version 14.14+, 16.0+), install with
+[npm](https://docs.npmjs.com/cli/install):
+
+npm:
+
+```sh
+npm install franc-min
+```
+
+## Data
+
+This build supports the following languages:
+
+| Code | Name | Speakers |
+| - | - | - |
+| [`cmn`](http://www-01.sil.org/iso639-3/documentation.asp?id=cmn) | Mandarin Chinese | 885M |
+| [`spa`](http://www-01.sil.org/iso639-3/documentation.asp?id=spa) | Spanish | 332M |
+| [`eng`](http://www-01.sil.org/iso639-3/documentation.asp?id=eng) | English | 322M |
+| [`rus`](http://www-01.sil.org/iso639-3/documentation.asp?id=rus) | Russian | 288M |
+| [`arb`](http://www-01.sil.org/iso639-3/documentation.asp?id=arb) | Standard Arabic | 280M |
+| [`ben`](http://www-01.sil.org/iso639-3/documentation.asp?id=ben) | Bengali | 196M |
+| [`hin`](http://www-01.sil.org/iso639-3/documentation.asp?id=hin) | Hindi | 182M |
+| [`por`](http://www-01.sil.org/iso639-3/documentation.asp?id=por) | Portuguese | 182M |
+| [`ind`](http://www-01.sil.org/iso639-3/documentation.asp?id=ind) | Indonesian | 140M |
+| [`jpn`](http://www-01.sil.org/iso639-3/documentation.asp?id=jpn) | Japanese | 125M |
+| [`fra`](http://www-01.sil.org/iso639-3/documentation.asp?id=fra) | French | 124M |
+| [`deu`](http://www-01.sil.org/iso639-3/documentation.asp?id=deu) | German | 121M |
+| [`jav`](http://www-01.sil.org/iso639-3/documentation.asp?id=jav) | Javanese (Javanese) | 76M |
+| [`jav`](http://www-01.sil.org/iso639-3/documentation.asp?id=jav) | Javanese (Latin) | 76M |
+| [`kor`](http://www-01.sil.org/iso639-3/documentation.asp?id=kor) | Korean | 75M |
+| [`tel`](http://www-01.sil.org/iso639-3/documentation.asp?id=tel) | Telugu | 73M |
+| [`vie`](http://www-01.sil.org/iso639-3/documentation.asp?id=vie) | Vietnamese | 67M |
+| [`mar`](http://www-01.sil.org/iso639-3/documentation.asp?id=mar) | Marathi | 65M |
+| [`ita`](http://www-01.sil.org/iso639-3/documentation.asp?id=ita) | Italian | 63M |
+| [`tam`](http://www-01.sil.org/iso639-3/documentation.asp?id=tam) | Tamil | 62M |
+| [`tur`](http://www-01.sil.org/iso639-3/documentation.asp?id=tur) | Turkish | 59M |
+| [`urd`](http://www-01.sil.org/iso639-3/documentation.asp?id=urd) | Urdu | 54M |
+| [`guj`](http://www-01.sil.org/iso639-3/documentation.asp?id=guj) | Gujarati | 44M |
+| [`pol`](http://www-01.sil.org/iso639-3/documentation.asp?id=pol) | Polish | 44M |
+| [`ukr`](http://www-01.sil.org/iso639-3/documentation.asp?id=ukr) | Ukrainian | 41M |
+| [`kan`](http://www-01.sil.org/iso639-3/documentation.asp?id=kan) | Kannada | 38M |
+| [`mai`](http://www-01.sil.org/iso639-3/documentation.asp?id=mai) | Maithili | 35M |
+| [`mal`](http://www-01.sil.org/iso639-3/documentation.asp?id=mal) | Malayalam | 34M |
+| [`pes`](http://www-01.sil.org/iso639-3/documentation.asp?id=pes) | Iranian Persian | 33M |
+| [`mya`](http://www-01.sil.org/iso639-3/documentation.asp?id=mya) | Burmese | 31M |
+| [`swh`](http://www-01.sil.org/iso639-3/documentation.asp?id=swh) | Swahili (individual language) | 30M |
+| [`sun`](http://www-01.sil.org/iso639-3/documentation.asp?id=sun) | Sundanese | 27M |
+| [`ron`](http://www-01.sil.org/iso639-3/documentation.asp?id=ron) | Romanian | 26M |
+| [`pan`](http://www-01.sil.org/iso639-3/documentation.asp?id=pan) | Panjabi | 26M |
+| [`bho`](http://www-01.sil.org/iso639-3/documentation.asp?id=bho) | Bhojpuri | 25M |
+| [`amh`](http://www-01.sil.org/iso639-3/documentation.asp?id=amh) | Amharic | 23M |
+| [`hau`](http://www-01.sil.org/iso639-3/documentation.asp?id=hau) | Hausa | 22M |
+| [`fuv`](http://www-01.sil.org/iso639-3/documentation.asp?id=fuv) | Nigerian Fulfulde | 22M |
+| [`bos`](http://www-01.sil.org/iso639-3/documentation.asp?id=bos) | Bosnian (Cyrillic) | 21M |
+| [`bos`](http://www-01.sil.org/iso639-3/documentation.asp?id=bos) | Bosnian (Latin) | 21M |
+| [`hrv`](http://www-01.sil.org/iso639-3/documentation.asp?id=hrv) | Croatian | 21M |
+| [`nld`](http://www-01.sil.org/iso639-3/documentation.asp?id=nld) | Dutch | 21M |
+| [`srp`](http://www-01.sil.org/iso639-3/documentation.asp?id=srp) | Serbian (Cyrillic) | 21M |
+| [`srp`](http://www-01.sil.org/iso639-3/documentation.asp?id=srp) | Serbian (Latin) | 21M |
+| [`tha`](http://www-01.sil.org/iso639-3/documentation.asp?id=tha) | Thai | 21M |
+| [`ckb`](http://www-01.sil.org/iso639-3/documentation.asp?id=ckb) | Central Kurdish | 20M |
+| [`yor`](http://www-01.sil.org/iso639-3/documentation.asp?id=yor) | Yoruba | 20M |
+| [`uzn`](http://www-01.sil.org/iso639-3/documentation.asp?id=uzn) | Northern Uzbek (Cyrillic) | 18M |
+| [`uzn`](http://www-01.sil.org/iso639-3/documentation.asp?id=uzn) | Northern Uzbek (Latin) | 18M |
+| [`zlm`](http://www-01.sil.org/iso639-3/documentation.asp?id=zlm) | Malay (individual language) (Arabic) | 18M |
+| [`zlm`](http://www-01.sil.org/iso639-3/documentation.asp?id=zlm) | Malay (individual language) (Latin) | 18M |
+| [`ibo`](http://www-01.sil.org/iso639-3/documentation.asp?id=ibo) | Igbo | 17M |
+| [`npi`](http://www-01.sil.org/iso639-3/documentation.asp?id=npi) | Nepali (individual language) | 16M |
+| [`ceb`](http://www-01.sil.org/iso639-3/documentation.asp?id=ceb) | Cebuano | 15M |
+| [`skr`](http://www-01.sil.org/iso639-3/documentation.asp?id=skr) | Saraiki | 15M |
+| [`tgl`](http://www-01.sil.org/iso639-3/documentation.asp?id=tgl) | Tagalog | 15M |
+| [`hun`](http://www-01.sil.org/iso639-3/documentation.asp?id=hun) | Hungarian | 15M |
+| [`azj`](http://www-01.sil.org/iso639-3/documentation.asp?id=azj) | North Azerbaijani (Cyrillic) | 14M |
+| [`azj`](http://www-01.sil.org/iso639-3/documentation.asp?id=azj) | North Azerbaijani (Latin) | 14M |
+| [`sin`](http://www-01.sil.org/iso639-3/documentation.asp?id=sin) | Sinhala | 13M |
+| [`koi`](http://www-01.sil.org/iso639-3/documentation.asp?id=koi) | Komi-Permyak | 13M |
+| [`ell`](http://www-01.sil.org/iso639-3/documentation.asp?id=ell) | Modern Greek (1453-) | 12M |
+| [`ces`](http://www-01.sil.org/iso639-3/documentation.asp?id=ces) | Czech | 12M |
+| [`mag`](http://www-01.sil.org/iso639-3/documentation.asp?id=mag) | Magahi | 11M |
+| [`run`](http://www-01.sil.org/iso639-3/documentation.asp?id=run) | Rundi | 11M |
+| [`bel`](http://www-01.sil.org/iso639-3/documentation.asp?id=bel) | Belarusian | 10M |
+| [`plt`](http://www-01.sil.org/iso639-3/documentation.asp?id=plt) | Plateau Malagasy | 10M |
+| [`qug`](http://www-01.sil.org/iso639-3/documentation.asp?id=qug) | Chimborazo Highland Quichua | 10M |
+| [`mad`](http://www-01.sil.org/iso639-3/documentation.asp?id=mad) | Madurese | 10M |
+| [`nya`](http://www-01.sil.org/iso639-3/documentation.asp?id=nya) | Nyanja | 10M |
+| [`zyb`](http://www-01.sil.org/iso639-3/documentation.asp?id=zyb) | Yongbei Zhuang | 10M |
+| [`pbu`](http://www-01.sil.org/iso639-3/documentation.asp?id=pbu) | Northern Pashto | 10M |
+| [`kin`](http://www-01.sil.org/iso639-3/documentation.asp?id=kin) | Kinyarwanda | 9M |
+| [`zul`](http://www-01.sil.org/iso639-3/documentation.asp?id=zul) | Zulu | 9M |
+| [`bul`](http://www-01.sil.org/iso639-3/documentation.asp?id=bul) | Bulgarian | 9M |
+| [`swe`](http://www-01.sil.org/iso639-3/documentation.asp?id=swe) | Swedish | 9M |
+| [`lin`](http://www-01.sil.org/iso639-3/documentation.asp?id=lin) | Lingala | 8M |
+| [`som`](http://www-01.sil.org/iso639-3/documentation.asp?id=som) | Somali | 8M |
+| [`hms`](http://www-01.sil.org/iso639-3/documentation.asp?id=hms) | Southern Qiandong Miao | 8M |
+| [`hnj`](http://www-01.sil.org/iso639-3/documentation.asp?id=hnj) | Hmong Njua | 8M |
+| [`ilo`](http://www-01.sil.org/iso639-3/documentation.asp?id=ilo) | Iloko | 8M |
+| [`kaz`](http://www-01.sil.org/iso639-3/documentation.asp?id=kaz) | Kazakh | 8M |
+
+## License
+
+[MIT](https://github.com/wooorm/franc/blob/main/license) © [Titus Wormer](http://wooorm.com)
+
+
+--- Özgün belge: UPSTREAM__license ---
+
+(The MIT License)
+
+Copyright (c) 2014 Titus Wormer <tituswormer@gmail.com>
+Copyright (c) 2008 Kent S Johnson
+Copyright (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
+Copyright (c) 2004 Maciej Ceglowski
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ==== fs-constants 1.0.0 — MIT ====
 The MIT License (MIT)
@@ -10957,7 +11896,76 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ==== isarray 1.0.0 — MIT ====
-(lisans dosyası pakette yok; lisans: MIT)
+
+Npm dağıtımı: https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz
+
+Paket yazarı / attribution: Julian Gruber
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.md ---
+
+
+# isarray
+
+`Array#isArray` for older browsers.
+
+[![build status](https://secure.travis-ci.org/juliangruber/isarray.svg)](http://travis-ci.org/juliangruber/isarray)
+[![downloads](https://img.shields.io/npm/dm/isarray.svg)](https://www.npmjs.org/package/isarray)
+
+[![browser support](https://ci.testling.com/juliangruber/isarray.png)
+](https://ci.testling.com/juliangruber/isarray)
+
+## Usage
+
+```js
+var isArray = require('isarray');
+
+console.log(isArray([])); // => true
+console.log(isArray({})); // => false
+```
+
+## Installation
+
+With [npm](http://npmjs.org) do
+
+```bash
+$ npm install isarray
+```
+
+Then bundle for the browser with
+[browserify](https://github.com/substack/browserify).
+
+With [component](http://component.io) do
+
+```bash
+$ component install juliangruber/isarray
+```
+
+## License
+
+(MIT)
+
+Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 ==== jszip 3.10.2 — (MIT OR GPL-3.0-or-later) ====
 JSZip is dual licensed. At your choice you may use it under the MIT license *or* the GPLv3
@@ -12684,10 +13692,399 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 
 ==== ot-json1 1.0.2 — ISC ====
-(lisans dosyası pakette yok; lisans: ISC)
 
-==== ot-text-unicode 4.0.0 — ISC ====
-(lisans dosyası pakette yok; lisans: ISC)
+Npm dağıtımı: https://registry.npmjs.org/ot-json1/-/ot-json1-1.0.2.tgz
+
+Paket yazarı / attribution: Joseph Gentle
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.md ---
+
+# JSON1
+
+> Status: Preview release. Usable; but contains known bugs. See below.
+
+This is an operational transformation type for arbitrary JSON trees. It supports concurrently editing arbitrarily complex nested structures. Fancy features:
+
+- Support for arbitrarily moving objects in the JSON tree. You could, for example, implement [workflowy](https://workflowy.com) using this, allowing items to be collaboratively moved around and edited. Or Maya. Or google wave 2. Or ... Anything!
+- Supports embedded subtypes. For example, you can embed rich text documents using quilljs or something inside your JSON tree
+- Conflicts! Unlike CRDTs, this library can be configured to refuse to accept operations which would result in lost data. For example, if two users both insert into the same location, instead of silently choosing a winner arbitrarily, you can throw an exception and tell the user whats going on.
+
+This code it is written to replace [ottypes/json0](https://github.com/ottypes/json0). JSON1 implements a superset of JSON0's functionality.
+
+The spec for operations is in [spec.md](spec.md).
+
+
+## Usage
+
+The JSON library has 2 main APIs:
+
+- The core OT API, which is a type with standard `apply`, `compose`, `transform`, etc functions. The standard API for this is [documented here](https://github.com/ottypes/docs). This is exposed via `require('ot-json').type`.
+- A simple API for creating operations.
+
+```javascript
+const json1 = require('ot-json1')
+
+const op1 = json1.moveOp(['a', 'x'], ['a', 'y'])
+
+// The easiest way to make compound operations is to just compose smaller operations
+const op2 = [
+  json1.moveOp(['a'], ['b']),
+  json1.insertOp(['b', 'z'], 'hi there')
+].reduce(json1.type.compose, null)
+
+// op2 = [['a', {p:0}], ['b', {d:0}, 'x', {i: 'hi there'}]]
+
+const op1_ = json1.type.transform(op1, op2, 'left')
+// op1_ now moves b.x -> b.y instead, because op2 moved 'a' to 'b'.
+
+let doc = {a: {x: 5}}
+doc = json1.type.apply(doc, op2) // doc = {b: {x: 5, z: 'hi there'}}
+doc = json1.type.apply(doc, op1_) // doc = {b: {y: 5, z: 'hi there'}}
+
+
+// Using the CP1 diamond property, this is the same as:
+
+doc = {a: {x: 5}}
+doc = json1.type.apply(doc, op1) // doc = {a: {y: 5}}
+const op2_ = json1.type.transform(op2, op1, 'right')
+doc = json1.type.apply(doc, op2) // doc = {b: {y: 5, z: 'hi there'}}
+```
+
+### Standard operation creation functions
+
+- `json1.removeOp(path, value?)`: Remove the value at the specified path. Becomes `[...path, {r: value | true}]`
+- `json1.moveOp(fromPath, toPath)`: Moves the value at `fromPath` to `toPath`.
+- `json1.insertOp(path, value)`: Insert the specified value at the specified path
+- `json1.replaceOp(path, oldVal, newVal)`: Replace the object at path with `newVal`. If you don't care about invertibility, pass `true` for oldVal.
+- `json1.editOp(path, subtype, op)`: Modify the value at the specified path `op`, using JSON type `subtype`. The type must be registered first using `json1.type.registerSubtype(typeObj)`. Eg, `json1.type.registerSubtype(require('rich-text'))`. It can be specified using the type name, the type URI or the type object. The [unicode text](https://github.com/ottypes/text-unicode) type and the simple number add type (TODO documentation) are registered by default.
+
+These functions all return very simple operations. The easiest way to make more complex operations is to combine these pieces using `compose`. For example:
+
+```javascript
+const op = [
+  json1.insertOp([], {title: '', contents: '', public: false}),
+  json1.editOp(['title'], 'text-unicode', ['My cool blog entry']),
+  json1.replaceOp(['public', false, true])
+].reduce(json1.type.compose, null)
+```
+
+### Conflicts
+
+> TODO: Describe how this works and how conflict handling is configured
+
+
+## Interoperability with JSON0
+
+This library supports a superset of the capabilities of JSON0, but the two types have some important differences:
+
+- JSON0 notably doesn't support moves between object keys
+- JSON0 doesn't support moving child values from one object to another
+- JSON0 and JSON1 use different embedded string types. JSON1 uses [text-unicode](https://github.com/ottypes/text-unicode) which uses proper unicode offsets. JSON0 uses the older [text](https://github.com/ottypes/text) type which uses UTF16 pair offsets. These are normally the same, but notably differ when embedding emoji characters.
+
+You can convert JSON0 operations to JSON1 operations using [json0-to-1](https://github.com/ottypes/json0-to-1). This is a work in progress and doesn't currently support converting string values. Please make noise & consider helping out if this conversion code is important to you. This conversion code guarantees that `json1.apply(doc, convert(json0_op)) === json0.apply(doc, json0_op)` but this invariant is not true through transform. `json1.transform(convert(op1), convert(op2)) !== convert(json0.transform(op1, op2))` in some cases due to slightly different handling of conflicting list indexes.
+
+
+# Limitations
+
+Your document must only contain pure JSON-stringifyable content. No dates, functions or self-references allowed. Your object should be identical to `JSON.parse(JSON.stringify(obj))`.
+
+Note that this library is currently in preview release. In practical terms, this means:
+
+- The fuzzer finds convergence bugs in the transform function results after a million or so iterations. So, this code is usable, but there are some [extremely complex operations](https://github.com/ottypes/json1/blob/4a0741d402ca631710e4e27f4f34647954c1f7d8/test/test.coffee#L2230-L2246) that this library currently struggles with. You shouldn't run into any of these problems in everyday use.
+- There may also be some reasonably minor API changes before 1.0
+- `applyPath` doesn't currently transform cursors inside an edited string document
+- `applyPath` doesn't currently have fuzzer tests. There are probably a couple bugs there that the fuzzer will find as soon as we hook it up.
+- `applyPath` may be renamed to something else (`transformCursor` is what the equivalent method is called in the string type, although its a bit of a weird name here). This function also currently doesn't transform anything inside a child edit, and it should.
+- We're missing a conflict for situations when two operations both move the same object to different locations. Currently the left operation will silently 'win' and the other operation's move will be discarded. But this behaviour should be user configurable
+- I want the whole library ported to typescript once its correct
+- I haven't exposed the internal cursor API, which is used internally to traverse operations. I'd be happy to expose this if someone provides a good, clear use case for doing so.
+
+
+
+## License
+
+Copyright (c) 2013-2018, Joseph Gentle &lt;me@josephg.com&gt;
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+
+
+==== ot-text-unicode 4.0.0 — MIT (npm metadata says ISC; distributed README explicitly grants MIT) ====
+
+Npm dağıtımı: https://registry.npmjs.org/ot-text-unicode/-/ot-text-unicode-4.0.0.tgz
+
+Paket yazarı / attribution: Joseph Gentle
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.md ---
+
+# The Plaintext OT Type, with proper unicode positions
+
+This OT type can be used to edit plaintext documents, like sourcecode or
+markdown. It allows invertible or non-invertible text operations.
+
+For documentation on the API spec this type implements, see [ottypes/docs](/ottypes/docs).
+
+There's also compatible versions of this library in [C](https://github.com/ottypes/libot), [rust](https://github.com/josephg/textot.rs) and [swift](https://github.com/josephg/libot-swift).
+
+This type is *almost* identical to the original [text type](https://github.com/ottypes/text). The difference is that text-unicode counts positions based on the number of unicode codepoints instead of javascript string length (UCS2 2-byte offsets). For example, "😭" is a single unicode codepoint but `"😭".length === 2` in javascript. In text, this is 2 characters (which propogates what I consider a bug in javascript). In text-unicode, this is counted as just 1 character. Considering it as 1 character is slightly less performant in javascript, but makes interop with other languages much easier.
+
+
+## Usage
+
+```
+# npm add ot-text-unicode
+```
+
+then use it like any other OT type:
+
+```javascript
+const {type} = require('ot-text-unicode')
+
+type.apply('hi there', [3, {d:5}, '🤖👻💃']) // -> 'hi 🤖👻💃'
+```
+
+There are helper methods for simple insert and remove operations:
+
+```javascript
+const {type, insert, remove} = require('ot-text-unicode')
+
+const op1 = insert(2, "hi there") // returns [2, "hi there"]
+
+// Operations which delete characters can optionally specify which characters were deleted:
+const op2inv = remove(2, "hi there") // returns [2, {d:"hi there"}]
+const op2noinv = remove(2, 8) // returns [2, {d:8}]
+
+const addThenRemove = type.compose(op1, op2inv) // Returns [], aka no-op!
+```
+
+
+### Using a rope with text-unicode
+
+This library has also been extended to allow you to specify your own fancy rope type, and apply operations efficiently. Neato 🌯! To use it, you'll need to implement your own rope type, or use a rope library on npm:
+
+```javascript
+const myRopeFns = {
+  create(str) { return new Rope(str) },
+  toString(rope) { return rope.toString() },
+
+  builder(rope) {
+    // Used for applying operations
+    let pos = 0 // character position in unicode code points
+
+    return {
+      skip(n) { pos += n },
+
+      append(s) { // Insert s at the current position
+        rope.insert(pos, s)
+        pos += unicodeLength(s)
+      },
+
+      del(n) { // Delete n characters at the current position
+        rope.del(pos, n)
+      },
+
+      build() { // Finish!
+        return rope
+      },
+    }
+  }
+}
+```
+
+Then use it:
+
+```javascript
+const type = require('ot-text-unicode').makeType(myRopeFns)
+
+let doc = type.create('hi there')
+doc = type.apply(doc, [3, {d:5}, '🤖👻💃']) // -> 'hi 🤖👻💃'
+
+// If your rope functions modify doc in-place, so will apply.
+```
+
+### Inverting operations
+
+Its often useful to be able to invert an operation to support undo. To invert an operation either:
+
+1. The operation needs to contain a copy of all deleted characters instead of simply specifying how many characters are deleted. Eg, `[{d:'hi'}]` instead of `[{d:2}]`.
+2. Or when inverting an operation you can use `type.invertWithDoc(op, doc)`, providing a copy of what the document looked like *before* the operation was applied.
+
+Note invert support has been added recently, and may not be supported by text-unicode implementations in other languages.
+
+```javascript
+const {type} = require('ot-text-unicode')
+
+const op1 = [2, {d: 5}] // Delete 5 characters at position 2
+type.invert(op1) // ERROR: Will throw because the operation doesn't contain deleted characters
+
+// Option 1: add all deleted characters into the operation:
+const op2 = [2, {d: 'hello'}] // Delete 5 characters ('hello') at position 2
+type.invert(op2) // Ok - returns `[2, 'hello']`
+
+// Option 2: Use invertWithDoc to generate an operation's inverse
+type.invertWithDoc(op1, 'a hello') // Ok - returns `[2, 'hello']`.
+```
+
+Invertibility information will be preserved through calls to transform and compose, if all provided operations are invertible. Note this is not the case for some other types, like json1.
+
+
+### Transforming cursor positions
+
+If you have another user's cursor position, you can transform that cursor using `type.transformPosition` or `type.transformSelection`:
+
+```javascript
+const {type} = require('ot-text-unicode')
+let doc = '...'
+let cursors = [{user: 'jane', pos: 5}, {user: 'fred', pos: 100}]
+
+function onRemoteOp(op) {
+  for (let user of cursors) {
+    // Update user positions based on the incoming operation
+    user.pos = type.transformPosition(user.pos, op)
+  }
+
+  doc = type.apply(doc, op)
+}
+```
+
+**Note** For consistency, just like other methods, `transformPosition` operates on unicode cursor positions, not raw JS string positions. If you're using this with JS string positions, you have two options:
+
+1. (Recommended) Convert your positions to unicode codepoint positions before calling `transformPosition`. The simplest way is to call `cursor = require('unicount').strPosToUni(doc_contents, jsPosition)`.
+2. Use the older version of `transformPosition` which operates on raw JS offsets. [Code to do that is in this github gist](https://gist.github.com/josephg/cc0a125a2d6a7637dabc79a865a7483c).
+
+
+## Spec
+
+The plaintext OT type thinks of the document as a giant unicode string, and
+edits index unicode characters in the string. This is different from most text
+editors, which break up a document into an array of lines. For small documents
+on modern computers, the conversion isn't particularly expensive. However, if
+you have giant documents you should be using a rope library like
+[jumprope](https://github.com/josephg/jumprope) or
+[librope](https://github.com/josephg/librope).
+
+Each operation describes a traversal over the document. The traveral can edit
+the document as it goes.
+
+For example, given the document:
+
+```
+"ABCDEFG"
+```
+
+You could apply the operation
+
+```
+[1, ' hi ', 2, {d:3}]
+```
+
+This operation will skip (retain) the first character (1), insert ' hi ', skip 2 more
+characters then delete the next 3 characters. The result would be:
+
+```
+"A hi BCG"
+```
+
+### Operation components
+
+Each operation is a list of components. The components describe a traversal of the document, modifying the document along the way. Each component is one of:
+
+- **Number N**: Skip (retain) the next *N* characters in the document
+- **"str"**: Insert *"str"* at the current position in the document
+- **{d:N}**: Delete *N* characters at the current position in the document
+- **{d:"str"}**: Delete the string *"str"* at the current position in the document. This is functionally identical to *{d:N}* but allows an operation to be inverted, which is useful for undo support.
+
+The operation does not have to skip the last characters in the document.
+
+
+### Selections
+
+The text type also has methods for manipulating selections.
+
+Selection ranges are either a single number (the cursor position) or a pair of
+[anchor, focus] numbers (aka [start, end]) of the selection range. Be aware
+that end can be before start.
+
+
+# Other implementations
+
+I have compatible implementations of this OT type in:
+
+- [C](https://github.com/share/libot/blob/master/text.h). This implementation is insanely fast (~20M transforms / second on my old laptop, not that that will ever be a bottleneck.)
+- [Rust](https://github.com/josephg/textot.rs). This code is much less mature, but far more concise and beautiful than the C or JS implementations.
+- [Swift](https://github.com/josephg/libot-swift)
+
+---
+
+# Commentary
+
+This is the 4th iteration of ShareJS's plaintext type.
+
+
+The [first
+iteration](https://github.com/share/ShareJS/blob/0.6/src/types/text2.coffee) was
+similar, except it forces all operations to be invertable. Invertability is
+nice, but I want to eventually build an arbitrary P2P OT system, and in a p2p
+setting invertibility becomes impractical to achieve. I don't want systems to
+depend on it.
+
+The second iteration made each component specify a location and an edit there.
+Operations were lists of these edits. Because the components were not sorted,
+if you transform two big operations by one another it requires M\*N
+time to transform. The components could be sorted to fix this, but if you're
+going to do that you may as well just make them sorted by design - which is
+what the current text implementation does. I thought the individual edits style
+was better because I expected it to be simpler, but when I implemented it I
+found the implementation of each method was almost identical in size.
+
+The [3rd iteration](https://github.com/ottypes/text) is 99% identical to this
+codebase, except it used UTF16 word offsets instead of unicode codepoints.
+This implementation considers emoji 🤸🏼‍♀️ as 1 character. ottypes/text
+considers that as 2 characters instead, because it takes a pair of UTF16
+values to store (`"🤓".length === 2` in javascript). This makes it awkward to
+build cross-platform OT systems spanning platforms which don't accept use JS's
+awkward unicode encoding.
+
+---
+
+# License
+
+All code contributed to this repository is licensed under the standard MIT license:
+
+Copyright 2011 ottypes library contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following condition:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+
 
 ==== pako 1.0.11 — (MIT AND Zlib) ====
 (The MIT License)
@@ -12916,7 +14313,88 @@ SOFTWARE.
 
 
 ==== react-remove-scroll-bar 2.3.8 — MIT ====
-(lisans dosyası pakette yok; lisans: MIT)
+
+Npm dağıtımı: https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz
+
+Paket yazarı / attribution: Anton Korzunov
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.md ---
+
+<h1>react-remove-scroll-bar</h1>
+
+[![npm](https://img.shields.io/npm/v/react-remove-scroll-bar.svg)](https://www.npmjs.com/package/react-remove-scroll-bar)
+[![bundle size](https://badgen.net/bundlephobia/minzip/react-remove-scroll-bar)](https://bundlephobia.com/result?p=react-remove-scroll-bar)
+[![downloads](https://badgen.net/npm/dm/react-remove-scroll-bar)](https://www.npmtrends.com/react-remove-scroll-bar)
+
+<hr />
+
+> v1+ for React 15, v2+ requires React 16.8+
+
+Removes scroll bar (by setting `overflow: hidden` on body), and preserves the scroll bar "gap".
+
+Read - it just makes scroll bar invisible.
+
+Does nothing if scroll bar does not consume any space.
+
+# Usage
+
+```js
+import {RemoveScrollBar} from 'react-remove-scroll-bar';
+
+<RemoveScrollBar /> -> no scroll bar
+```
+
+### The Right Border
+To prevent content jumps __position:fixed__ elements with `right:0`  should have additional classname applied.
+It will just provide a _non-zero_ right, when it needed, to maintain the right "gap".
+```js
+import {zeroRightClassName,fullWidthClassName, noScrollbarsClassName} from 'react-remove-scroll-bar';
+
+// to set `right:0` on an element
+<div className={zeroRightClassName} />
+
+// to set `width:100%` on an element
+<div className={fullWidthClassName} />
+
+// to remove scrollbar from an element
+<div className={noScrollbarsClassName} />
+
+```
+
+# Size
+500b after compression (excluding tslib).
+
+# Scroll-Locky
+All code is a result of a [react-scroll-locky](https://github.com/theKashey/react-scroll-locky) refactoring.
+
+# Article
+There is a medium article about preventing the body scroll - [How to fight the <body> scroll](https://medium.com/@antonkorzunov/how-to-fight-the-body-scroll-2b00267b37ac)
+
+# License
+MIT
+
+
+--- SPDX standart MIT metni (özgün atıflarla birlikte) ---
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ==== react-style-singleton 2.2.3 — MIT ====
 MIT License
@@ -13510,7 +14988,407 @@ THE SOFTWARE.
 
 
 ==== saxes 5.0.1 — ISC ====
-(lisans dosyası pakette yok; lisans: ISC)
+
+Npm dağıtımı: https://registry.npmjs.org/saxes/-/saxes-5.0.1.tgz
+
+Paket yazarı / attribution: Louis-Dominique Dubeau
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.md ---
+
+# saxes
+
+A sax-style non-validating parser for XML.
+
+Saxes is a fork of [sax](https://github.com/isaacs/sax-js) 1.2.4. All mentions
+of sax in this project's documentation are references to sax 1.2.4.
+
+Designed with [node](http://nodejs.org/) in mind, but should work fine in the
+browser or other CommonJS implementations.
+
+Saxes does not support Node versions older than 10.
+
+## Notable Differences from Sax.
+
+* Saxes aims to be much stricter than sax with regards to XML
+  well-formedness. Sax, even in its so-called "strict mode", is not strict. It
+  silently accepts structures that are not well-formed XML. Projects that need
+  better compliance with well-formedness constraints cannot use sax as-is.
+
+  Consequently, saxes does not support HTML, or pseudo-XML, or bad XML. Saxes
+  will report well-formedness errors in all these cases but it won't try to
+  extract data from malformed documents like sax does.
+
+* Saxes is much much faster than sax, mostly because of a substantial redesign
+  of the internal parsing logic. The speed improvement is not merely due to
+  removing features that were supported by sax. That helped a bit, but saxes
+  adds some expensive checks in its aim for conformance with the XML
+  specification. Redesigning the parsing logic is what accounts for most of the
+  performance improvement.
+
+* Saxes does not aim to support antiquated platforms. We will not pollute the
+  source or the default build with support for antiquated platforms. If you want
+  support for IE 11, you are welcome to produce a PR that adds a *new build*
+  transpiled to ES5.
+
+* Saxes handles errors differently from sax: it provides a default onerror
+  handler which throws. You can replace it with your own handler if you want. If
+  your handler does nothing, there is no `resume` method to call.
+
+* There's no `Stream` API. A revamped API may be introduced later. (It is still
+  a "streaming parser" in the general sense that you write a character stream to
+  it.)
+
+* Saxes does not have facilities for limiting the size the data chunks passed to
+  event handlers. See the FAQ entry for more details.
+
+## Conformance
+
+Saxes supports:
+
+* [XML 1.0 fifth edition](https://www.w3.org/TR/2008/REC-xml-20081126/)
+* [XML 1.1 second edition](https://www.w3.org/TR/2006/REC-xml11-20060816/)
+* [Namespaces in XML 1.0 (Third Edition)](https://www.w3.org/TR/2009/REC-xml-names-20091208/).
+* [Namespaces in XML 1.1 (Second Edition)](https://www.w3.org/TR/2006/REC-xml-names11-20060816/).
+
+## Limitations
+
+This is a non-validating parser so it only verifies whether the document is
+well-formed. We do aim to raise errors for all malformed constructs
+encountered. However, this parser does not thorougly parse the contents of
+DTDs. So most malformedness errors caused by errors **in DTDs** cannot be
+reported.
+
+## Regarding `<!DOCTYPE` and `<!ENTITY`
+
+The parser will handle the basic XML entities in text nodes and attribute
+values: `&amp; &lt; &gt; &apos; &quot;`. It's possible to define additional
+entities in XML by putting them in the DTD. This parser doesn't do anything with
+that. If you want to listen to the `doctype` event, and then fetch the
+doctypes, and read the entities and add them to `parser.ENTITIES`, then be my
+guest.
+
+## Documentation
+
+The source code contains JSDOC comments. Use them. What follows is a brief
+summary of what is available. The final authority is the source code.
+
+**PAY CLOSE ATTENTION TO WHAT IS PUBLIC AND WHAT IS PRIVATE.**
+
+The move to TypeScript makes it so that everything is now formally private,
+protected, or public.
+
+If you use anything not public, that's at your own peril.
+
+If there's a mistake in the documentation, raise an issue. If you just assume,
+you may assume incorrectly.
+
+## Summary Usage Information
+
+### Example
+
+```javascript
+var saxes = require("./lib/saxes"),
+  parser = new saxes.SaxesParser();
+
+parser.on("error", function (e) {
+  // an error happened.
+});
+parser.on("text", function (t) {
+  // got some text.  t is the string of text.
+});
+parser.on("opentag", function (node) {
+  // opened a tag.  node has "name" and "attributes"
+});
+parser.on("end", function () {
+  // parser stream is done, and ready to have more stuff written to it.
+});
+
+parser.write('<xml>Hello, <who name="world">world</who>!</xml>').close();
+```
+
+### Constructor Arguments
+
+Settings supported:
+
+* `xmlns` - Boolean. If `true`, then namespaces are supported. Default
+  is `false`.
+
+* `position` - Boolean. If `false`, then don't track line/col/position. Unset is
+  treated as `true`. Default is unset. Currently, setting this to `false` only
+  results in a cosmetic change: the errors reported do not contain position
+  information. sax-js would literally turn off the position-computing logic if
+  this flag was set to false. The notion was that it would optimize
+  execution. In saxes at least it turns out that continually testing this flag
+  causes a cost that offsets the benefits of turning off this logic.
+
+* `fileName` - String. Set a file name for error reporting. This is useful only
+  when tracking positions. You may leave it unset.
+
+* `fragment` - Boolean. If `true`, parse the XML as an XML fragment. Default is
+  `false`.
+
+* `additionalNamespaces` - A plain object whose key, value pairs define
+   namespaces known before parsing the XML file. It is not legal to pass
+   bindings for the namespaces `"xml"` or `"xmlns"`.
+
+* `defaultXMLVersion` - The default version of the XML specification to use if
+  the document contains no XML declaration. If the document does contain an XML
+  declaration, then this setting is ignored. Must be `"1.0"` or `"1.1"`. The
+  default is `"1.0"`.
+
+* `forceXMLVersion` - Boolean. A flag indicating whether to force the XML
+  version used for parsing to the value of ``defaultXMLVersion``. When this flag
+  is ``true``, ``defaultXMLVersion`` must be specified. If unspecified, the
+  default value of this flag is ``false``.
+
+  Example: suppose you are parsing a document that has an XML declaration
+  specifying XML version 1.1.
+
+  If you set ``defaultXMLVersion`` to ``"1.0"`` without setting
+  ``forceXMLVersion`` then the XML declaration will override the value of
+  ``defaultXMLVersion`` and the document will be parsed according to XML 1.1.
+
+  If you set ``defaultXMLVersion`` to ``"1.0"`` and set ``forceXMLVersion`` to
+  ``true``, then the XML declaration will be ignored and the document will be
+  parsed according to XML 1.0.
+
+### Methods
+
+`write` - Write bytes onto the stream. You don't have to pass the whole document
+in one `write` call. You can read your source chunk by chunk and call `write`
+with each chunk.
+
+`close` - Close the stream. Once closed, no more data may be written until it is
+done processing the buffer, which is signaled by the `end` event.
+
+### Properties
+
+The parser has the following properties:
+
+`line`, `column`, `columnIndex`, `position` - Indications of the position in the
+XML document where the parser currently is looking. The `columnIndex` property
+counts columns as if indexing into a JavaScript string, whereas the `column`
+property counts Unicode characters.
+
+`closed` - Boolean indicating whether or not the parser can be written to.  If
+it's `true`, then wait for the `ready` event to write again.
+
+`opt` - Any options passed into the constructor.
+
+`xmlDecl` - The XML declaration for this document. It contains the fields
+`version`, `encoding` and `standalone`. They are all `undefined` before
+encountering the XML declaration. If they are undefined after the XML
+declaration, the corresponding value was not set by the declaration. There is no
+event associated with the XML declaration. In a well-formed document, the XML
+declaration may be preceded only by an optional BOM. So by the time any event
+generated by the parser happens, the declaration has been processed if present
+at all. Otherwise, you have a malformed document, and as stated above, you
+cannot rely on the parser data!
+
+### Error Handling
+
+The parser continues to parse even upon encountering errors, and does its best
+to continue reporting errors. You should heed all errors reported. After an
+error, however, saxes may interpret your document incorrectly. For instance
+``<foo a=bc="d"/>`` is invalid XML. Did you mean to have ``<foo a="bc=d"/>`` or
+``<foo a="b" c="d"/>`` or some other variation?  For the sake of continuing to
+provide errors, saxes will continue parsing the document, but the structure it
+reports may be incorrect. It is only after the errors are fixed in the document
+that saxes can provide a reliable interpretation of the document.
+
+That leaves you with two rules of thumb when using saxes:
+
+* Pay attention to the errors that saxes report. The default `onerror` handler
+  throws, so by default, you cannot miss errors.
+
+* **ONCE AN ERROR HAS BEEN ENCOUNTERED, STOP RELYING ON THE EVENT HANDLERS OTHER
+  THAN `onerror`.** As explained above, when saxes runs into a well-formedness
+  problem, it makes a guess in order to continue reporting more errors. The guess
+  may be wrong.
+
+### Events
+
+To listen to an event, override `on<eventname>`. The list of supported events
+are also in the exported `EVENTS` array.
+
+See the JSDOC comments in the source code for a description of each supported
+event.
+
+### Parsing XML Fragments
+
+The XML specification does not define any method by which to parse XML
+fragments. However, there are usage scenarios in which it is desirable to parse
+fragments. In order to allow this, saxes provides three initialization options.
+
+If you pass the option `fragment: true` to the parser constructor, the parser
+will expect an XML fragment. It essentially starts with a parsing state
+equivalent to the one it would be in if `parser.write("<foo">)` had been called
+right after initialization. In other words, it expects content which is
+acceptable inside an element. This also turns off well-formedness checks that
+are inappropriate when parsing a fragment.
+
+The option `additionalNamespaces` allows you to define additional prefix-to-URI
+bindings known before parsing starts. You would use this over `resolvePrefix` if
+you have at the ready a series of namespaces bindings to use.
+
+The option `resolvePrefix` allows you to pass a function which saxes will use if
+it is unable to resolve a namespace prefix by itself. You would use this over
+`additionalNamespaces` in a context where getting a complete list of defined
+namespaces is onerous.
+
+Note that you can use `additionalNamespaces` and `resolvePrefix` together if you
+want. `additionalNamespaces` applies before `resolvePrefix`.
+
+The options `additionalNamespaces` and `resolvePrefix` are really meant to be
+used for parsing fragments. However, saxes won't prevent you from using them
+with `fragment: false`. Note that if you do this, your document may parse
+without errors and yet be malformed because the document can refer to namespaces
+which are not defined *in* the document.
+
+Of course, `additionalNamespaces` and `resolvePrefix` are used only if `xmlns`
+is `true`. If you are parsing a fragment that does not use namespaces, there's
+no point in setting these options.
+
+### Performance Tips
+
+* saxes works faster on files that use newlines (``\u000A``) as end of line
+  markers than files that use other end of line markers (like ``\r`` or
+  ``\r\n``). The XML specification requires that conformant applications behave
+  as if all characters that are to be treated as end of line characters are
+  converted to ``\u000A`` prior to parsing. The optimal code path for saxes is a
+  file in which all end of line characters are already ``\u000A``.
+
+* Don't split Unicode strings you feed to saxes across surrogates. When you
+  naively split a string in JavaScript, you run the risk of splitting a Unicode
+  character into two surrogates. e.g.  In the following example ``a`` and ``b``
+  each contain half of a single Unicode character: ``const a = "\u{1F4A9}"[0];
+  const b = "\u{1F4A9}"[1]`` If you feed such split surrogates to versions of
+  saxes prior to 4, you'd get errors. Saxes version 4 and over are able to
+  detect when a chunk of data ends with a surrogate and carry over the surrogate
+  to the next chunk. However this operation entails slicing and concatenating
+  strings. If you can feed your data in a way that does not split surrogates,
+  you should do it. (Obviously, feeding all the data at once with a single write
+  is fastest.)
+
+* Don't set event handlers you don't need. Saxes has always aimed to avoid doing
+  work that will just be tossed away but future improvements hope to do this
+  more aggressively. One way saxes knows whether or not some data is needed is
+  by checking whether a handler has been set for a specific event.
+
+## FAQ
+
+Q. Why has saxes dropped support for limiting the size of data chunks passed to
+event handlers?
+
+A. With sax you could set ``MAX_BUFFER_LENGTH`` to cause the parser to limit the
+size of data chunks passed to event handlers. So if you ran into a span of text
+above the limit, multiple ``text`` events with smaller data chunks were fired
+instead of a single event with a large chunk.
+
+However, that functionality had some problematic characteristics. It had an
+arbitrary default value. It was library-wide so all parsers created from a
+single instance of the ``sax`` library shared it. This could potentially cause
+conflicts among libraries running in the same VM but using sax for different
+purposes.
+
+These issues could have been easily fixed, but there were larger issues. The
+buffer limit arbitrarily applied to some events but not others. It would split
+``text``, ``cdata`` and ``script`` events. However, if a ``comment``,
+``doctype``, ``attribute`` or ``processing instruction`` were more than the
+limit, the parser would generate an error and you were left picking up the
+pieces.
+
+It was not intuitive to use. You'd think setting the limit to 1K would prevent
+chunks bigger than 1K to be passed to event handlers. But that was not the
+case. A comment in the source code told you that you might go over the limit if
+you passed large chunks to ``write``. So if you want a 1K limit, don't pass 64K
+chunks to ``write``. Fair enough. You know what limit you want so you can
+control the size of the data you pass to ``write``. So you limit the chunks to
+``write`` to 1K at a time. Even if you do this, your event handlers may get data
+chunks that are 2K in size. Suppose on the previous ``write`` the parser has
+just finished processing an open tag, so it is ready for text. Your ``write``
+passes 1K of text. You are not above the limit yet, so no event is generated
+yet. The next ``write`` passes another 1K of text. It so happens that sax checks
+buffer limits only once per ``write``, after the chunk of data has been
+processed. Now you've hit the limit and you get a ``text`` event with 2K of
+data. So even if you limit your ``write`` calls to the buffer limit you've set,
+you may still get events with chunks at twice the buffer size limit you've
+specified.
+
+We may consider reinstating an equivalent functionality, provided that it
+addresses the issues above and does not cause a huge performance drop for
+use-case scenarios that don't need it.
+
+
+--- Özgün belge: UPSTREAM__LICENSE ---
+
+The ISC License
+
+Copyright (c) Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+====
+
+The following license is the one that governed sax, from which saxes
+was forked. Isaac Schlueter is not *directly* involved with saxes so
+don't go bugging him for saxes issues.
+
+The ISC License
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+====
+
+`String.fromCodePoint` by Mathias Bynens is no longer used, but it can
+still be found in old commits. It was once used according to terms of
+MIT License, as follows:
+
+    Copyright Mathias Bynens <https://mathiasbynens.be/>
+
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ==== scheduler 0.28.0 — MIT ====
 MIT License
@@ -13797,7 +15675,59 @@ SOFTWARE.
 
 
 ==== unicount 1.1.0 — ISC ====
-(lisans dosyası pakette yok; lisans: ISC)
+
+Npm dağıtımı: https://registry.npmjs.org/unicount/-/unicount-1.1.0.tgz
+
+Paket yazarı / attribution: Joseph Gentle
+
+Özgün telif ve lisans bildirimleri aşağıda korunmuştur. SPDX metni eklenmişse bu, upstream beyanındaki standart lisansın açıklayıcı tam metnidir; yeni bir izin veya telif iddiası değildir.
+
+--- Özgün belge: package__README.md ---
+
+# Unicode position conversion
+
+This is a super simple no-deps conversion tool to convert between unicode codepoint offsets and JS string offsets.
+
+This module exposes 2 methods:
+
+#### strPosToUni(s: string, strOffset?: number)
+
+Convert from a JS string position to a unicode position.
+
+For example, given the JS string `'💃123'`, JS string position 2 is right after the 💃. Since that emoji is a single code point wide, the unicode equivalent of that position is 1.
+
+```javascript
+const {strPosToUni} = require('unicount')
+
+console.log(strPosToUni('💃123', 2)) // 1
+```
+
+The offset is optional. If it is missing, it defaults to the length of the string (so bare `strPosToUni(str)` returns the number of unicode code points in the given string).
+
+
+#### uniToStrPos(s: string, uniOffset: number)
+
+Convert a unicode codepoint position to a string offset position
+
+This function does the inverse of `strPosToUni`. Given a string `s` and a number of codepoints `uniOffset`, this returns the string position right after specified number of unicode codepoints.
+
+```javascript
+const {uniToStrPos} = require('unicount')
+
+uniToStrPos.uniToStrPos('💃123', 1) // 2
+```
+
+Unlike `strPosToUni`, the second offset argument is not optional. Call `s.length` to discover the JS string length.
+
+
+# LICENSE
+
+Copyright 2019 Joseph Gentle
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
 
 ==== unzipper 0.10.14 — MIT ====
 Copyright (c) 2012 - 2013 Near Infinity Corporation

@@ -1,0 +1,28 @@
+{
+  "name": "@univerjs/protocol",
+  "version": "1.0.3",
+  "declaredLicense": "Apache-2.0",
+  "repository": {
+    "url": "https://github.com/dream-num/univer",
+    "type": "git"
+  },
+  "gitHead": null,
+  "tarball": "https://registry.npmjs.org/@univerjs/protocol/-/protocol-1.0.3.tgz",
+  "sha256": "013bb850559de4e29d89000490bc6d605392a60545cec3c784eba6cbaba24f1f",
+  "documents": [
+    "package/README.md",
+    "package/lib/types/ts/universer/v1/license.d.ts"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [
+    {
+      "url": "https://raw.githubusercontent.com/dream-num/univer/f003a3fdb4dc08a711076db521df2b22583a85a6/LICENSE",
+      "path": "LICENSE",
+      "ref": "f003a3fdb4dc08a711076db521df2b22583a85a6"
+    }
+  ],
+  "author": "DreamNum Co., Ltd. <developer@univer.ai>",
+  "contributors": null
+}

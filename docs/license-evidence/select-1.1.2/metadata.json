@@ -1,0 +1,21 @@
+{
+  "name": "select",
+  "version": "1.1.2",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git+https://github.com/zenorocha/select.git",
+    "type": "git"
+  },
+  "gitHead": "53e4a21d674cdfb09026e0474d95dc3779e7ff4a",
+  "tarball": "https://registry.npmjs.org/select/-/select-1.1.2.tgz",
+  "sha256": "669bf87efbe97c919d31ba02b837575ce8e1011cd793c9fbc667cb975e993595",
+  "documents": [
+    "package/readme.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Vista-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [],
+  "author": null,
+  "contributors": null
+}

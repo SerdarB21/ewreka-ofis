@@ -9,7 +9,7 @@
 | **Ewreka Vista** | Sunum | .pptx | PPTist çatalı (AGPL-3.0) |
 | **Ewreka Carta** | PDF görüntüleme/düzenleme | .pdf | Mozilla PDF.js (Apache-2.0) + pdf-lib (MIT) |
 
-Masaüstü kabuğu Electron (MIT) ile yazılmıştır. Lisans: **GNU AGPL-3.0-or-later** (bkz. `LICENSE`).
+Masaüstü kabuğu Electron (MIT) ile yazılmıştır. Lisans: **GNU AGPL-3.0-only** (bkz. `LICENSE`).
 
 ## Klasör yapısı
 

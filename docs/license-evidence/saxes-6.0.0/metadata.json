@@ -1,0 +1,30 @@
+{
+  "name": "saxes",
+  "version": "6.0.0",
+  "declaredLicense": "ISC",
+  "repository": {
+    "url": "git+https://github.com/lddubeau/saxes.git",
+    "type": "git"
+  },
+  "gitHead": "211fa0ebec9b628affc09219199639887174bfc3",
+  "tarball": "https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz",
+  "sha256": "1cdf52fbbe1ccbd175c365d2b8e63f46e590e74aff23fa6a44a6ec51522e96db",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Nota-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [
+    {
+      "url": "https://raw.githubusercontent.com/lddubeau/saxes/211fa0ebec9b628affc09219199639887174bfc3/LICENSE",
+      "path": "LICENSE",
+      "ref": "211fa0ebec9b628affc09219199639887174bfc3"
+    }
+  ],
+  "author": {
+    "name": "Louis-Dominique Dubeau",
+    "email": "ldd@lddubeau.com"
+  },
+  "contributors": null
+}

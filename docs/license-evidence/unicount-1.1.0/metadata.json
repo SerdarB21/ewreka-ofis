@@ -1,0 +1,24 @@
+{
+  "name": "unicount",
+  "version": "1.1.0",
+  "declaredLicense": "ISC",
+  "repository": {
+    "url": "git+https://github.com/josephg/unicount.git",
+    "type": "git"
+  },
+  "gitHead": "79d4e85321209b72459cc0ff9d26d51f544039e9",
+  "tarball": "https://registry.npmjs.org/unicount/-/unicount-1.1.0.tgz",
+  "sha256": "a41314ccb5821427f45aa08ac288a0abb401151a06cc4a3cabcceafaf234385d",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Matrix-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [],
+  "author": {
+    "name": "Joseph Gentle",
+    "email": "me@josephg.com"
+  },
+  "contributors": null
+}

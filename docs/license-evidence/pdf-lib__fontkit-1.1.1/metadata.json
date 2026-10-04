@@ -1,0 +1,41 @@
+{
+  "name": "@pdf-lib/fontkit",
+  "version": "1.1.1",
+  "declaredLicense": "MIT",
+  "repository": {
+    "url": "git://github.com/Hopding/fontkit.git",
+    "type": "git"
+  },
+  "gitHead": null,
+  "tarball": "https://registry.npmjs.org/@pdf-lib/fontkit/-/fontkit-1.1.1.tgz",
+  "sha256": "6dd0ae9209fce419b2ed76c97166863167b4df56d75fbe3c7f1d1e6e49c85867",
+  "documents": [
+    "package/README.md"
+  ],
+  "usedBy": [
+    "github-yayin\\ewreka-ofis\\build\\lisanslar\\Carta-ucuncu-taraf-lisanslar.txt"
+  ],
+  "upstreamLicenseDocuments": [
+    {
+      "url": "https://raw.githubusercontent.com/Hopding/fontkit/72b8e42bd6a398d496a63a6d483eabeed43861fb/test/data/NotoSans/LICENSE.txt",
+      "path": "test/data/NotoSans/LICENSE.txt",
+      "ref": "72b8e42bd6a398d496a63a6d483eabeed43861fb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hopding/fontkit/72b8e42bd6a398d496a63a6d483eabeed43861fb/test/data/OpenSans/LICENSE.txt",
+      "path": "test/data/OpenSans/LICENSE.txt",
+      "ref": "72b8e42bd6a398d496a63a6d483eabeed43861fb"
+    }
+  ],
+  "author": {
+    "name": "Andrew Dillon",
+    "email": "andrew.dillon.j@gmail.com"
+  },
+  "contributors": [
+    {
+      "url": "http://badassjs.com/",
+      "name": "Devon Govett",
+      "email": "devongovett@gmail.com"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     "url": "https://www.ewreka.net"
   },
   "homepage": "https://www.ewreka.net",
-  "license": "AGPL-3.0-or-later",
+  "license": "AGPL-3.0-only",
   "private": true,
   "scripts": {
     "start": "electron .",
